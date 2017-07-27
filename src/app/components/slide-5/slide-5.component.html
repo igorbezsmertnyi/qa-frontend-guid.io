@@ -1,0 +1,33 @@
+<div class="slide-5">
+  <div class="slide-5__content">
+    <code #tag class="code code--html slide-5__content__code"
+          [ngClass]="{'slide-5__content__code--active': animationTag}">
+      <p #tagBracket class="code__bracket"><</p>
+      <p #tagName class="code__name">div</p>
+      <p #tagBracket class="code__bracket">></p>
+
+      <p #tagBracket class="code__bracket"><</p>
+      <p #tagClose class="code__slash">/</p>
+      <p #tagName class="code__name">div</p>
+      <p #tagBracket class="code__bracket">></p>
+    </code>
+    <div class="slide-5__tooltip">
+      <div #ToolpitTag
+           class="tooltip slide-5__tooltip--tag"
+           (mouseover)="tagActive()"
+           (mouseleave)="tagDisative()"></div>
+      <div #ToolpitBrackets
+           class="tooltip slide-5__tooltip--brackets"
+           (mouseover)="bracketsActive()"
+           (mouseleave)="bracketsDisactive()"></div>
+      <div #ToolpitTagName
+           class="tooltip slide-5__tooltip--tagname"
+           (mouseover)="tagNameActive()"
+           (mouseleave)="tagNameDisactive()"></div>
+      <div #ToolpitTagClose
+           class="tooltip slide-5__tooltip--tagclose"
+           (mouseover)="closeActive()"
+           (mouseleave)="closeDisactive()"></div>
+    </div>
+  </div>
+</div>

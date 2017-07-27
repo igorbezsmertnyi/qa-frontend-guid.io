@@ -1,0 +1,60 @@
+@import '../../../styles/variables';
+
+.code {
+  display: inline-flex;
+
+  &__bracket {
+    color: #fff;
+    transition: ease-in-out 0.4s;
+
+    &--hover {
+      transition: ease-in-out 0.4s;
+      background-color: transparentize($violet, 0.5);
+    }
+  }
+
+  &__name {
+    color: $red-orange;
+    transition: ease-in-out 0.4s;
+
+    &--hover {
+      transition: ease-in-out 0.4s;
+      background-color: transparentize($jungle-green, 0.5);
+    }
+  }
+
+  &__content {
+    color: transparentize(#fff, 0.2);
+    font-weight: 500;
+    margin: auto 7px;
+  }
+
+  &__slash {
+    color: #fff;
+    transition: ease-in-out 0.4s;
+
+    &--hover {
+      transition: ease-in-out 0.4s;
+      background-color: transparentize($violet, 0.5);
+    }
+  }
+
+  &__adv {
+    color: #fff !important;
+    margin: 0 -15px;
+  }
+
+  &__prop {
+    color: $jungle-green;
+  }
+
+  &__id {
+    color: $picton-blue;
+    margin-left: 10px;
+  }
+
+  &__class {
+    color: $logo-orange;
+    margin-left: 10px;
+  }
+}

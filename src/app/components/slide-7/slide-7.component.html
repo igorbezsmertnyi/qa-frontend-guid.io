@@ -1,0 +1,24 @@
+<div class="slide-7">
+  <div class="slide-7__content">
+    <slide-title [animation]="animationActive" [delay]="0" text="2.3 HTML Tags" strong="list"></slide-title>
+
+    <div #list class="slide-7__content__list">
+      <div class="slide-7__content__list__col">
+        <a *ngFor="let tag of tagList | slice:0:9" target="_blank" href="https://www.w3schools.com/tags/tag_{{tag}}.asp">
+          <app-code tagName="{{tag}}"></app-code>
+        </a>
+      </div>
+      <div class="slide-7__content__list__col">
+        <a *ngFor="let tag of tagList | slice:9:20" target="_blank" href="https://www.w3schools.com/tags/tag_{{tag}}.asp">
+          <app-code tagName="{{tag}}"></app-code>
+        </a>
+      </div>
+      <div class="slide-7__content__list__col">
+        <a *ngFor="let tag of tagList | slice:18:27" target="_blank" href="https://www.w3schools.com/tags/tag_{{tag}}.asp">
+          <app-code tagName="{{tag}}"></app-code>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>

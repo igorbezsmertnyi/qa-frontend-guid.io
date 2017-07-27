@@ -1,0 +1,33 @@
+@import '../../../styles';
+
+.slide-list {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  opacity: 0;
+  transform: translateY(50px);
+
+  &--active {
+    opacity: 1;
+    transform: translateY(0);
+    animation: fade-in ease-in-out 1 .4s;
+  }
+
+  ul {
+    max-width: 800px;
+    background-color: $layout-dark;
+    padding: 20px 25px 20px 45px;
+    border-radius: 10px;
+    border: 1px solid $layout-light;
+
+    @include component-shadow;
+  }
+}
+
+::content /deep/ li {
+  font-size: 1.6em;
+  font-weight: 300;
+  margin: 7px 0 15px;
+  word-wrap: break-word;
+}

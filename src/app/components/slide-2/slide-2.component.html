@@ -1,0 +1,8 @@
+<div class="slide-2">
+  <div class="slide-2__content">
+    <slide-title [animation]="animationActive" text="In This Course" strong="Will Be"></slide-title>
+    <slide-list [animation]="animationActive">
+      <li *ngFor="let item of cources">{{item}}</li>
+    </slide-list>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+.slide-6 {
+  &__content {
+    &__examples {
+      margin-top: 5em;
+      padding: 0 20px;
+
+      &__code {
+        font-size: 2.7em;
+        opacity: 0;
+        transform: translateX(-50px);
+        transition: ease-in-out 0.4s;
+
+        &--active {
+          opacity: 1;
+          transform: translateX(0);
+          transition: ease-in-out 0.4s;
+        }
+      }
+    }
+  }
+}

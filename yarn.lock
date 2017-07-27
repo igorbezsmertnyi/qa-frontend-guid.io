@@ -2,9 +2,15 @@
 # yarn lockfile v1
 
 
-"@angular/animations@^4.0.0":
+"@angular/animations@^4.3.1":
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-4.3.1.tgz#1f7e0bb803efc21c608246e6765a1c647f3d1a5f"
+  dependencies:
+    tslib "^1.7.1"
+
+"@angular/cdk@^2.0.0-beta.8":
+  version "2.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/@angular/cdk/-/cdk-2.0.0-beta.8.tgz#71961c851dfbeb19e085e898bf5e4461408f8b57"
   dependencies:
     tslib "^1.7.1"
 
@@ -117,13 +123,19 @@
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/@angular/language-service/-/language-service-4.3.1.tgz#9910833fc89ddaac3e48d3ffaf8bb893618cda11"
 
+"@angular/material@^2.0.0-beta.8":
+  version "2.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/@angular/material/-/material-2.0.0-beta.8.tgz#a92852abc9261aea26c2401f576645470be2cf38"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/platform-browser-dynamic@^4.0.0":
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-4.3.1.tgz#84034da60a82ef36e7effda7b3ade6e645b330b3"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/platform-browser@^4.0.0":
+"@angular/platform-browser@^4.3.1":
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-4.3.1.tgz#db727b06eed64bda5defec71815db26a4da2f690"
   dependencies:
@@ -3113,7 +3125,7 @@ node-pre-gyp@^0.6.36:
     tar "^2.2.1"
     tar-pack "^3.4.0"
 
-node-sass@^4.3.0:
+node-sass@^4.3.0, node-sass@^4.5.3:
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/node-sass/-/node-sass-4.5.3.tgz#d09c9d1179641239d1b97ffc6231fdcec53e1568"
   dependencies:

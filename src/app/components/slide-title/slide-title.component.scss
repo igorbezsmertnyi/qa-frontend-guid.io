@@ -1,0 +1,29 @@
+@import '../../../styles/variables.scss';
+
+.slides-title {
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  font-size: 2.4em;
+  opacity: 0;
+  transform: translateY(50px);
+
+  &--active {
+    opacity: 1;
+    transform: translateY(0);
+    animation: fade-in ease-in-out 1 .4s;
+  }
+
+  h3 {
+    text-align: center;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  &__heightlight {
+    color: $violet;
+    font-weight: 400;
+    margin: 0 3px 0 12px;
+  }
+}

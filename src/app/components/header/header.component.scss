@@ -1,0 +1,70 @@
+@import '../../../styles/variables';
+
+.header {
+  position: relative;
+  height: 50px;
+  padding: 10px 20px;
+  display: flex;
+  flex-flow: row nowrap;
+
+  &__steps {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    &__select {
+      width: 170px;
+      height: 35px;
+      color: #fff;
+      font-size: 14px;
+      background: $layout-light;
+      border: 1px solid #fff;
+      box-shadow: none;
+    }
+  }
+
+  &__logo {
+    width: 20%;
+    display: inline-flex;
+    font-size: 2.8em;
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__btn {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    &__prev,
+    &__next {
+      width: 70px;
+      height: 35px;
+      margin: 0 0 0 15px;
+      color: #fff;
+      font-size: 14px;
+      border: 1px solid #fff;
+      border-radius: 5px;
+      background: $layout-light;
+      cursor: pointer;
+
+      &:hover {
+        background: #fff;
+        color: $layout-dark;
+      }
+
+      &:active {
+        background: darken(#fff, 15%);
+      }
+
+      &--active {
+        background: darken(#fff, 15%);
+        color: $layout-dark;
+      }
+    }
+  }
+}

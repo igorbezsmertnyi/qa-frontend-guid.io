@@ -1,0 +1,23 @@
+<header class="header">
+  <div class="header__steps">
+    <select class="header__steps__select" (change)="onStepChange()" [(ngModel)]="currnetStep">
+      <option *ngFor="let slide of slideList; let i = index;" [value]="i">{{ slide }}</option>
+    </select>
+  </div>
+  <div class="header__logo">
+    <code class="code">
+      <p class="code__bracket"><</p>
+      <p class="code__name">html</p>
+      <p class="code__slash">/</p>
+      <p class="code__bracket">></p>
+    </code>
+  </div>
+  <div class="header__btn">
+    <button #prevBtn (click)="prevSlide()" class="header__btn__prev" type="button">
+      Prev
+    </button>
+    <button #nextBtn (click)="nextSlide()" class="header__btn__next" type="button">
+      Next
+    </button>
+  </div>
+</header>

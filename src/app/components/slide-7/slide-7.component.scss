@@ -1,0 +1,36 @@
+.slide-7 {
+  &__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+
+    &__list {
+      width: 100%;
+      max-width: 1080px;
+      display: flex;
+      flex-direction: row;
+      opacity: 0;
+      transform: translateY(50px);
+      transition: ease-in-out 0.4s;
+
+      &--active {
+        opacity: 1;
+        transform: translateY(0);
+        transition: ease-in-out 0.4s;
+      }
+
+      &__col {
+        width: calc(100% / 3);
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        padding-left: 30px;
+
+        app-code {
+          font-size: 1.5em;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+<code class="code">
+  <p class="code__bracket"><</p>
+  <p class="slide-4__tagname code__name">{{tagName}}</p>
+
+  <p *ngIf="propId" class="code__id">
+    id
+    <span class="code__adv">=</span>
+    <span class="code__prop">"{{propId}}"</span>
+  </p>
+
+  <p *ngIf="propClass" class="code__class">
+    class
+    <span class="code__adv">=</span>
+    <span class="code__prop">"{{propClass}}"</span>
+  </p>
+
+  <p *ngIf="propName" class="code__class">
+    name
+    <span class="code__adv">=</span>
+    <span class="code__prop">"{{propName}}"</span>
+  </p>
+
+  <p *ngIf="propData" class="code__class">
+    data-id
+    <span class="code__adv">=</span>
+    <span class="code__prop">"{{propData}}"</span>
+  </p>
+
+  <p *ngIf="singleTag" class="code__slash">/</p>
+  <p class="code__bracket">></p>
+
+  <p *ngIf="someCode" class="code__content">{{someCode}}</p>
+
+  <p *ngIf="!singleTag" class="code__bracket"><</p>
+  <p *ngIf="!singleTag" class="code__slash">/</p>
+  <p *ngIf="!singleTag" class="code__name">{{tagName}}</p>
+  <p *ngIf="!singleTag" class="code__bracket">></p>
+
+  <ng-content></ng-content>
+</code>
