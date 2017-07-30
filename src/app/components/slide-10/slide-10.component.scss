@@ -1,0 +1,110 @@
+@import '../../../styles';
+
+.slide-10 {
+  &__content {
+    width: 100%;
+    height: 100%;
+
+    &__examples {
+      width: 100%;
+      max-height: 280px;
+      display: inline-flex;
+      margin-top: 30px;
+      padding-top: 2.2em;
+      opacity: 0;
+      transform: translateY(100px);
+      transition: ease-in-out .4s;
+      overflow: hidden;
+
+      &--active {
+        opacity: 1;
+        transform: translateY(0);
+        transition: ease-in-out .4s;
+      }
+
+      &__text,
+      &__container {
+        position: relative;
+        width: calc(50% - 30px);
+        max-width: calc(50% - 30px);
+        max-height: 280px;
+        margin: 0 15px;
+      }
+
+      &__container {
+        display: flex;
+        justify-content: center;
+      }
+
+      h3, p {
+        color: #fff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-weight: 200;
+        font-size: 1.6em;
+        margin: 0;
+      }
+
+      &__text {
+        text-align: center;
+      }
+
+      &__div {
+        border: 1px solid $red-orange;
+        padding: 20px 25px;
+      }
+    }
+
+    &__edit {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      bottom: 10px;
+      display: inline-flex;
+      margin-top: 70px;
+      opacity: 0;
+      transform: translateY(100px);
+      transition: ease-in-out .4s;
+
+      &--active {
+        opacity: 1;
+        transform: translateY(0);
+        transition: ease-in-out .4s;
+      }
+
+      &__ctrl {
+        width: calc(100% - 30px);
+        margin: 0 15px;
+        display: flex;
+        justify-content: center;
+        flex-flow: row nowrap;
+        padding: 40px;
+        border-radius: 10px;
+        background-color: $layout-dark;
+
+        @include component-shadow;
+
+        input {
+          margin-right: 10px;
+          color: #000;
+          font-size: 1em;
+          text-align: center;
+          background-color: transparentize(#fff, 0.1);
+          padding: 10px;
+          border: 0;
+          border-radius: 5px;
+
+          @include component-shadow;
+        }
+
+        label {
+          color: #fff;
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+          font-weight: 200;
+          font-size: 1.1em;
+          margin-right: 20px;
+          padding-top: 8px;
+        }
+      }
+    }
+  }
+}

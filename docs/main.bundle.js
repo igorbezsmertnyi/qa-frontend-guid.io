@@ -28,14 +28,18 @@ webpackEmptyContext.id = "../../../../../src async recursive";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_code_code_component__ = __webpack_require__("../../../../../src/app/components/code/code.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_slide_list_list_component__ = __webpack_require__("../../../../../src/app/components/slide-list/list.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_slide_title_slide_title_component__ = __webpack_require__("../../../../../src/app/components/slide-title/slide-title.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_slide_1_slide_1_component__ = __webpack_require__("../../../../../src/app/components/slide-1/slide-1.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_slide_2_slide_2_component__ = __webpack_require__("../../../../../src/app/components/slide-2/slide-2.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_slide_3_slide_3_component__ = __webpack_require__("../../../../../src/app/components/slide-3/slide-3.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_slide_4_slide_4_component__ = __webpack_require__("../../../../../src/app/components/slide-4/slide-4.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_slide_5_slide_5_component__ = __webpack_require__("../../../../../src/app/components/slide-5/slide-5.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_slide_6_slide_6_component__ = __webpack_require__("../../../../../src/app/components/slide-6/slide-6.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_slide_7_slide_7_component__ = __webpack_require__("../../../../../src/app/components/slide-7/slide-7.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__app_state__ = __webpack_require__("../../../../../src/app/app.state.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_info_card_info_card_component__ = __webpack_require__("../../../../../src/app/components/info-card/info-card.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_slide_1_slide_1_component__ = __webpack_require__("../../../../../src/app/components/slide-1/slide-1.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_slide_2_slide_2_component__ = __webpack_require__("../../../../../src/app/components/slide-2/slide-2.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_slide_3_slide_3_component__ = __webpack_require__("../../../../../src/app/components/slide-3/slide-3.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_slide_4_slide_4_component__ = __webpack_require__("../../../../../src/app/components/slide-4/slide-4.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_slide_5_slide_5_component__ = __webpack_require__("../../../../../src/app/components/slide-5/slide-5.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_slide_6_slide_6_component__ = __webpack_require__("../../../../../src/app/components/slide-6/slide-6.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_slide_7_slide_7_component__ = __webpack_require__("../../../../../src/app/components/slide-7/slide-7.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_slide_8_slide_8_component__ = __webpack_require__("../../../../../src/app/components/slide-8/slide-8.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_slide_9_slide_9_component__ = __webpack_require__("../../../../../src/app/components/slide-9/slide-9.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_slide_10_slide_10_component__ = __webpack_require__("../../../../../src/app/components/slide-10/slide-10.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__app_state__ = __webpack_require__("../../../../../src/app/app.state.ts");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -43,6 +47,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
+
+
 
 
 
@@ -73,15 +81,19 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_6__containers_app_app_component__["a" /* AppComponent */],
             __WEBPACK_IMPORTED_MODULE_7__components_header_header_component__["a" /* HeaderComponent */],
             __WEBPACK_IMPORTED_MODULE_8__components_code_code_component__["a" /* CodeComponent */],
-            __WEBPACK_IMPORTED_MODULE_11__components_slide_1_slide_1_component__["a" /* Slide1Component */],
-            __WEBPACK_IMPORTED_MODULE_12__components_slide_2_slide_2_component__["a" /* Slide2Component */],
+            __WEBPACK_IMPORTED_MODULE_12__components_slide_1_slide_1_component__["a" /* Slide1Component */],
+            __WEBPACK_IMPORTED_MODULE_13__components_slide_2_slide_2_component__["a" /* Slide2Component */],
             __WEBPACK_IMPORTED_MODULE_9__components_slide_list_list_component__["a" /* SlideListComponent */],
             __WEBPACK_IMPORTED_MODULE_10__components_slide_title_slide_title_component__["a" /* SlideTitleComponent */],
-            __WEBPACK_IMPORTED_MODULE_13__components_slide_3_slide_3_component__["a" /* Slide3Component */],
-            __WEBPACK_IMPORTED_MODULE_14__components_slide_4_slide_4_component__["a" /* Slide4Component */],
-            __WEBPACK_IMPORTED_MODULE_15__components_slide_5_slide_5_component__["a" /* Slide5Component */],
-            __WEBPACK_IMPORTED_MODULE_16__components_slide_6_slide_6_component__["a" /* Slide6Component */],
-            __WEBPACK_IMPORTED_MODULE_17__components_slide_7_slide_7_component__["a" /* Slide7Component */],
+            __WEBPACK_IMPORTED_MODULE_14__components_slide_3_slide_3_component__["a" /* Slide3Component */],
+            __WEBPACK_IMPORTED_MODULE_15__components_slide_4_slide_4_component__["a" /* Slide4Component */],
+            __WEBPACK_IMPORTED_MODULE_16__components_slide_5_slide_5_component__["a" /* Slide5Component */],
+            __WEBPACK_IMPORTED_MODULE_17__components_slide_6_slide_6_component__["a" /* Slide6Component */],
+            __WEBPACK_IMPORTED_MODULE_18__components_slide_7_slide_7_component__["a" /* Slide7Component */],
+            __WEBPACK_IMPORTED_MODULE_19__components_slide_8_slide_8_component__["a" /* Slide8Component */],
+            __WEBPACK_IMPORTED_MODULE_11__components_info_card_info_card_component__["a" /* InfoCardComponent */],
+            __WEBPACK_IMPORTED_MODULE_20__components_slide_9_slide_9_component__["a" /* Slide9Component */],
+            __WEBPACK_IMPORTED_MODULE_21__components_slide_10_slide_10_component__["a" /* Slide10Component */],
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_5__angular_http__["a" /* HttpModule */],
@@ -93,7 +105,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */]
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_18__app_state__["a" /* StateService */]
+            __WEBPACK_IMPORTED_MODULE_22__app_state__["a" /* StateService */]
         ],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_6__containers_app_app_component__["a" /* AppComponent */]]
     })
@@ -153,7 +165,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, ".code {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex; }\n  .code__bracket {\n    color: #fff;\n    transition: ease-in-out 0.4s; }\n    .code__bracket--hover {\n      transition: ease-in-out 0.4s;\n      background-color: rgba(186, 115, 209, 0.5); }\n  .code__name {\n    color: #E68364;\n    transition: ease-in-out 0.4s; }\n    .code__name--hover {\n      transition: ease-in-out 0.4s;\n      background-color: rgba(38, 194, 129, 0.5); }\n  .code__content {\n    color: rgba(255, 255, 255, 0.8);\n    font-weight: 500;\n    margin: auto 7px; }\n  .code__slash {\n    color: #fff;\n    transition: ease-in-out 0.4s; }\n    .code__slash--hover {\n      transition: ease-in-out 0.4s;\n      background-color: rgba(186, 115, 209, 0.5); }\n  .code__adv {\n    color: #fff !important;\n    margin: 0 -15px; }\n  .code__prop {\n    color: #26C281; }\n  .code__id {\n    color: #22A7F0;\n    margin-left: 10px; }\n  .code__class {\n    color: #ce9766;\n    margin-left: 10px; }\n", ""]);
+exports.push([module.i, ".code {\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex; }\n  .code__bracket {\n    color: #fff;\n    transition: ease-in-out 0.4s; }\n    .code__bracket--hover {\n      transition: ease-in-out 0.4s;\n      background-color: rgba(186, 115, 209, 0.5); }\n  .code__name {\n    color: #E68364;\n    transition: ease-in-out 0.4s; }\n    .code__name--hover {\n      transition: ease-in-out 0.4s;\n      background-color: rgba(38, 194, 129, 0.5); }\n  .code__content {\n    color: rgba(255, 255, 255, 0.8);\n    font-weight: 500;\n    margin: auto 7px; }\n  .code__slash {\n    color: #fff;\n    transition: ease-in-out 0.4s; }\n    .code__slash--hover {\n      transition: ease-in-out 0.4s;\n      background-color: rgba(186, 115, 209, 0.5); }\n  .code__adv {\n    color: #fff !important;\n    margin: 0 -18px; }\n  .code__prop {\n    color: #26C281; }\n  .code__id {\n    color: #22A7F0;\n    margin-left: 10px; }\n  .code__class {\n    color: #ce9766;\n    margin-left: 10px; }\n", ""]);
 
 // exports
 
@@ -278,12 +290,15 @@ var HeaderComponent = (function () {
         this.currnetStep = 0;
         this.slideList = [
             'Start',
-            '1. About Course',
-            '1.1 About HTML',
+            '1.1 About Course',
             '1.2 About HTML',
+            '1.3 About HTML',
             '2.1 HTML tag',
             '2.2 HTML tags structure',
-            '2.3 HTML tags list'
+            '2.3 HTML tags list',
+            '3.1 CSS & CSS units',
+            '3.2 CSS & CSS units',
+            '3.3 CSS Units example'
         ];
         this.st.currnetStep.subscribe(function (step) { return _this.currnetStep = step; });
     }
@@ -358,6 +373,80 @@ var _a, _b, _c, _d;
 
 /***/ }),
 
+/***/ "../../../../../src/app/components/info-card/info-card.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"info-card\"\n     [ngClass]=\"{'info-card--active': animationActive}\">\n  <ng-content></ng-content>\n</div>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/info-card/info-card.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+exports.i(__webpack_require__("../../../../css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../../../postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../material/prebuilt-themes/deeppurple-amber.css"), "");
+
+// module
+exports.push([module.i, "body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n  height: 0;\n  background-color: #24262b;\n  overflow: hidden; }\n\nmain {\n  position: relative;\n  width: calc(100% - 40px);\n  height: calc(100vh - 90px);\n  margin: 0 20px 20px;\n  top: 0;\n  left: 0;\n  background-color: #2b2e34;\n  border-radius: 10px;\n  overflow: hidden;\n  box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.1); }\n\nh3, li {\n  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; }\n\n.slides {\n  position: relative;\n  height: calc(100% - 30px);\n  padding: 15px;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  transition: ease-in-out 0.4s; }\n  .slides__item {\n    position: relative;\n    width: calc(100vw - 70px);\n    height: 100%;\n    margin-right: 15px; }\n    .slides__item__title {\n      width: 100%;\n      height: 60px;\n      color: #fff;\n      font-size: 2.4em; }\n      .slides__item__title h3 {\n        text-align: center;\n        font-weight: 300;\n        margin-top: 10px;\n        margin-bottom: 15px; }\n      .slides__item__title span {\n        color: #ba73d1;\n        font-weight: 400;\n        margin: 0 3px; }\n    .slides__item__list {\n      color: #fff;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n      .slides__item__list ul {\n        max-width: 769px;\n        background-color: #24262b;\n        padding: 20px 25px 20px 45px;\n        border-radius: 10px;\n        border: 1px solid #2b2e34;\n        box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.2); }\n      .slides__item__list li {\n        font-size: 1.9em;\n        font-weight: 300;\n        margin: 7px 0 9px;\n        word-wrap: break-word; }\n\n.btn {\n  color: #fff !important;\n  border: 1px solid #fff !important;\n  border-radius: 5px !important; }\n\n.tooltip {\n  opacity: 0;\n  cursor: pointer; }\n  .tooltip--active {\n    opacity: 1; }\n  .tooltip::before, .tooltip::after {\n    color: #fff;\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: 1.1em;\n    text-transform: uppercase; }\n\n.mat-select-value,\n.mat-select-arrow {\n  color: #fff !important; }\n\n.mat-select-underline {\n  background-color: #fff !important; }\n\n@-webkit-keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n@keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n.info-card {\n  opacity: 0;\n  -webkit-transform: translateY(50px);\n          transform: translateY(50px);\n  transition: ease-in-out .4s;\n  margin-top: 20px;\n  width: 100%;\n  max-width: calc(100% - 100px);\n  background-color: #24262b;\n  padding: 20px;\n  border-radius: 10px;\n  border: 1px solid #2b2e34;\n  opacity: 0;\n  transform: translateY(50px);\n  box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.2); }\n  .info-card--active {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0);\n    transition: ease-in-out .4s; }\n  .info-card ::content /deep/ p, .info-card h3 {\n    font-size: 1.6em;\n    font-weight: 300;\n    margin: 7px 0 15px;\n    word-wrap: break-word;\n    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;\n    color: #fff; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/info-card/info-card.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InfoCardComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var InfoCardComponent = (function () {
+    function InfoCardComponent() {
+        this.animation = false;
+        this.animationActive = false;
+    }
+    InfoCardComponent.prototype.ngOnInit = function () { };
+    InfoCardComponent.prototype.ngOnChanges = function () {
+        var _this = this;
+        if (this.animation) {
+            setTimeout(function () {
+                _this.animationActive = true;
+            }, 700);
+        }
+    };
+    return InfoCardComponent;
+}());
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Input */])(),
+    __metadata("design:type", Boolean)
+], InfoCardComponent.prototype, "animation", void 0);
+InfoCardComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
+        selector: 'info-card',
+        template: __webpack_require__("../../../../../src/app/components/info-card/info-card.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/components/info-card/info-card.component.scss")]
+    }),
+    __metadata("design:paramtypes", [])
+], InfoCardComponent);
+
+//# sourceMappingURL=info-card.component.js.map
+
+/***/ }),
+
 /***/ "../../../../../src/app/components/slide-1/slide-1.component.html":
 /***/ (function(module, exports) {
 
@@ -422,6 +511,108 @@ Slide1Component = __decorate([
 
 var _a;
 //# sourceMappingURL=slide-1.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/slide-10/slide-10.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"slide-10\">\n  <div class=\"slide-10__content\">\n    <slide-title [animation]=\"animationActive\" text=\"3.3 CSS Units\" strong=\"Example\"></slide-title>\n\n    <div class=\"slide-10__content__examples\"\n         [ngClass]=\"{'slide-10__content__examples--active': activeExample}\">\n      <div class=\"slide-10__content__examples__text\">\n        <h3 #text [ngStyle]=\"{'font-size': fontSize + fontUnit}\">Hello world</h3>\n      </div>\n\n\n      <div class=\"slide-10__content__examples__container\">\n        <div #div class=\"slide-10__content__examples__div\" [ngStyle]=\"{'width': divSize + divUnit}\">\n          <p>\n            To be, or not to be: that is the question:\n            Whether 'tis nobler in the mind to suffer\n            The slings and arrows of outrageous fortune,\n            Or to take arms against a sea of troubles,\n            And by opposing end them. To die: to sleep;\n            No more; and by a sleep to say we end\n            The heart-ache, and the thousand natural shocks\n            That flesh is heir to, 'tis a consummation\n            Devoutly to be wish'd. To die, to sleep;\n          </p>\n        </div>\n      </div>\n    </div>\n\n    <div class=\"slide-10__content__edit\"\n         [ngClass]=\"{'slide-10__content__edit--active': activeEdit}\">\n      <div class=\"slide-10__content__edit__ctrl\">\n        <label for=\"textSize\">Change TEXT size: </label>\n        <input id=\"textSize\" type=\"number\" [(ngModel)]=\"fontSize\" [value]=\"fontSize\" min=\"0\" max=\"100\">\n        <md-select [(ngModel)]=\"fontUnit\" name=\"font_units\">\n          <md-option *ngFor=\"let unit of units\" [value]=\"unit\">\n            {{ unit }}\n          </md-option>\n        </md-select>\n      </div>\n\n      <div class=\"slide-10__content__edit__ctrl\">\n        <label for=\"divSize\">Change DIV size: </label>\n        <input id=\"divSize\" type=\"number\" [(ngModel)]=\"divSize\" [value]=\"divSize\" min=\"0\" max=\"100\">\n        <md-select [(ngModel)]=\"divUnit\" name=\"div_units\">\n          <md-option *ngFor=\"let unit of units\"  selected=\"unit ? '%'\" [value]=\"unit\">\n            {{ unit }}\n          </md-option>\n        </md-select>\n      </div>\n    </div>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/slide-10/slide-10.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+exports.i(__webpack_require__("../../../../css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../../../postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../material/prebuilt-themes/deeppurple-amber.css"), "");
+
+// module
+exports.push([module.i, "body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n  height: 0;\n  background-color: #24262b;\n  overflow: hidden; }\n\nmain {\n  position: relative;\n  width: calc(100% - 40px);\n  height: calc(100vh - 90px);\n  margin: 0 20px 20px;\n  top: 0;\n  left: 0;\n  background-color: #2b2e34;\n  border-radius: 10px;\n  overflow: hidden;\n  box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.1); }\n\nh3, li {\n  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; }\n\n.slides {\n  position: relative;\n  height: calc(100% - 30px);\n  padding: 15px;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  transition: ease-in-out 0.4s; }\n  .slides__item {\n    position: relative;\n    width: calc(100vw - 70px);\n    height: 100%;\n    margin-right: 15px; }\n    .slides__item__title {\n      width: 100%;\n      height: 60px;\n      color: #fff;\n      font-size: 2.4em; }\n      .slides__item__title h3 {\n        text-align: center;\n        font-weight: 300;\n        margin-top: 10px;\n        margin-bottom: 15px; }\n      .slides__item__title span {\n        color: #ba73d1;\n        font-weight: 400;\n        margin: 0 3px; }\n    .slides__item__list {\n      color: #fff;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n      .slides__item__list ul {\n        max-width: 769px;\n        background-color: #24262b;\n        padding: 20px 25px 20px 45px;\n        border-radius: 10px;\n        border: 1px solid #2b2e34;\n        box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.2); }\n      .slides__item__list li {\n        font-size: 1.9em;\n        font-weight: 300;\n        margin: 7px 0 9px;\n        word-wrap: break-word; }\n\n.btn {\n  color: #fff !important;\n  border: 1px solid #fff !important;\n  border-radius: 5px !important; }\n\n.tooltip {\n  opacity: 0;\n  cursor: pointer; }\n  .tooltip--active {\n    opacity: 1; }\n  .tooltip::before, .tooltip::after {\n    color: #fff;\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: 1.1em;\n    text-transform: uppercase; }\n\n.mat-select-value,\n.mat-select-arrow {\n  color: #fff !important; }\n\n.mat-select-underline {\n  background-color: #fff !important; }\n\n@-webkit-keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n@keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n.slide-10__content {\n  width: 100%;\n  height: 100%; }\n  .slide-10__content__examples {\n    width: 100%;\n    max-height: 280px;\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    margin-top: 30px;\n    padding-top: 2.2em;\n    opacity: 0;\n    -webkit-transform: translateY(100px);\n            transform: translateY(100px);\n    transition: ease-in-out .4s;\n    overflow: hidden; }\n    .slide-10__content__examples--active {\n      opacity: 1;\n      -webkit-transform: translateY(0);\n              transform: translateY(0);\n      transition: ease-in-out .4s; }\n    .slide-10__content__examples__text, .slide-10__content__examples__container {\n      position: relative;\n      width: calc(50% - 30px);\n      max-width: calc(50% - 30px);\n      max-height: 280px;\n      margin: 0 15px; }\n    .slide-10__content__examples__container {\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n    .slide-10__content__examples h3, .slide-10__content__examples p {\n      color: #fff;\n      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;\n      font-weight: 200;\n      font-size: 1.6em;\n      margin: 0; }\n    .slide-10__content__examples__text {\n      text-align: center; }\n    .slide-10__content__examples__div {\n      border: 1px solid #E68364;\n      padding: 20px 25px; }\n  .slide-10__content__edit {\n    position: absolute;\n    width: 100%;\n    left: 0;\n    bottom: 10px;\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    margin-top: 70px;\n    opacity: 0;\n    -webkit-transform: translateY(100px);\n            transform: translateY(100px);\n    transition: ease-in-out .4s; }\n    .slide-10__content__edit--active {\n      opacity: 1;\n      -webkit-transform: translateY(0);\n              transform: translateY(0);\n      transition: ease-in-out .4s; }\n    .slide-10__content__edit__ctrl {\n      width: calc(100% - 30px);\n      margin: 0 15px;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center;\n      -webkit-box-orient: horizontal;\n      -webkit-box-direction: normal;\n          -ms-flex-flow: row nowrap;\n              flex-flow: row nowrap;\n      padding: 40px;\n      border-radius: 10px;\n      background-color: #24262b;\n      box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.2); }\n      .slide-10__content__edit__ctrl input {\n        margin-right: 10px;\n        color: #000;\n        font-size: 1em;\n        text-align: center;\n        background-color: rgba(255, 255, 255, 0.9);\n        padding: 10px;\n        border: 0;\n        border-radius: 5px;\n        box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.2); }\n      .slide-10__content__edit__ctrl label {\n        color: #fff;\n        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;\n        font-weight: 200;\n        font-size: 1.1em;\n        margin-right: 20px;\n        padding-top: 8px; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/slide-10/slide-10.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_state__ = __webpack_require__("../../../../../src/app/app.state.ts");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Slide10Component; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var Slide10Component = (function () {
+    function Slide10Component(st, renderer) {
+        var _this = this;
+        this.st = st;
+        this.renderer = renderer;
+        this.animationActive = false;
+        this.activeExample = false;
+        this.activeEdit = false;
+        this.fontSize = 32;
+        this.fontUnit = 'px';
+        this.divSize = 50;
+        this.divUnit = '%';
+        this.units = ['px', '%', 'pt', 'cm', 'mm', 'in', 'pc', 'em', 'rem', 'ex', 'ch', 'vw', 'vh', 'vmin', 'vmax'];
+        this.st.currnetStep.subscribe(function (step) {
+            if (step === 9) {
+                setTimeout(function () {
+                    _this.animationActive = true;
+                    _this.activeAnimation();
+                }, 400);
+            }
+            else {
+                _this.animationActive = false;
+            }
+        });
+    }
+    Slide10Component.prototype.ngOnInit = function () { };
+    Slide10Component.prototype.activeAnimation = function () {
+        var _this = this;
+        setTimeout(function () {
+            _this.activeExample = true;
+        }, 800);
+        setTimeout(function () {
+            _this.activeEdit = true;
+        }, 900);
+    };
+    return Slide10Component;
+}());
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])('text'),
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */]) === "function" && _a || Object)
+], Slide10Component.prototype, "text", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])('div'),
+    __metadata("design:type", typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */]) === "function" && _b || Object)
+], Slide10Component.prototype, "div", void 0);
+Slide10Component = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
+        selector: 'slide-10',
+        template: __webpack_require__("../../../../../src/app/components/slide-10/slide-10.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/components/slide-10/slide-10.component.scss")]
+    }),
+    __metadata("design:paramtypes", [typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1__app_state__["a" /* StateService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__app_state__["a" /* StateService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* Renderer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* Renderer */]) === "function" && _d || Object])
+], Slide10Component);
+
+var _a, _b, _c, _d;
+//# sourceMappingURL=slide-10.component.js.map
 
 /***/ }),
 
@@ -593,7 +784,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 exports.i(__webpack_require__("../../../../css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../../../postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../material/prebuilt-themes/deeppurple-amber.css"), "");
 
 // module
-exports.push([module.i, "body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n  height: 0;\n  background-color: #24262b;\n  overflow: hidden; }\n\nmain {\n  position: relative;\n  width: calc(100% - 40px);\n  height: calc(100vh - 90px);\n  margin: 0 20px 20px;\n  top: 0;\n  left: 0;\n  background-color: #2b2e34;\n  border-radius: 10px;\n  overflow: hidden;\n  box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.1); }\n\nh3, li {\n  font-family: Helvetica, Arial, sans-serif; }\n\n.slides {\n  position: relative;\n  height: calc(100% - 30px);\n  padding: 15px;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  transition: ease-in-out 0.4s; }\n  .slides__item {\n    position: relative;\n    width: calc(100vw - 70px);\n    height: 100%;\n    margin-right: 15px; }\n    .slides__item__title {\n      width: 100%;\n      height: 60px;\n      color: #fff;\n      font-size: 2.4em; }\n      .slides__item__title h3 {\n        text-align: center;\n        font-weight: 300;\n        margin-top: 10px;\n        margin-bottom: 15px; }\n      .slides__item__title span {\n        color: #ba73d1;\n        font-weight: 400;\n        margin: 0 3px; }\n    .slides__item__list {\n      color: #fff;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n      .slides__item__list ul {\n        max-width: 769px;\n        background-color: #24262b;\n        padding: 20px 25px 20px 45px;\n        border-radius: 10px;\n        border: 1px solid #2b2e34;\n        box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.2); }\n      .slides__item__list li {\n        font-size: 1.9em;\n        font-weight: 300;\n        margin: 7px 0 9px;\n        word-wrap: break-word; }\n\n.btn {\n  color: #fff !important;\n  border: 1px solid #fff !important;\n  border-radius: 5px !important; }\n\n.tooltip {\n  opacity: 0;\n  cursor: pointer; }\n  .tooltip--active {\n    opacity: 1; }\n  .tooltip::before, .tooltip::after {\n    color: #fff;\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: 1.1em;\n    text-transform: uppercase; }\n\n@-webkit-keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n@keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n.slide-4 {\n  width: 100%;\n  height: 100%; }\n  .slide-4__content {\n    width: 100%;\n    height: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-flow: column nowrap;\n            flex-flow: column nowrap; }\n    .slide-4__content__about {\n      margin-top: 40px;\n      max-width: 800px;\n      background-color: #24262b;\n      padding: 20px;\n      border-radius: 10px;\n      border: 1px solid #2b2e34;\n      display: -webkit-inline-box;\n      display: -ms-inline-flexbox;\n      display: inline-flex;\n      opacity: 0;\n      -webkit-transform: translateY(50px);\n              transform: translateY(50px);\n      box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.2); }\n      .slide-4__content__about--active {\n        opacity: 1;\n        -webkit-transform: translateY(0);\n                transform: translateY(0);\n        -webkit-animation: fade-in ease-in-out 1 .4s;\n                animation: fade-in ease-in-out 1 .4s; }\n      .slide-4__content__about__img {\n        width: 30%;\n        min-width: 250px;\n        max-width: 400px; }\n        .slide-4__content__about__img img {\n          width: 100%;\n          -o-object-fit: cover;\n             object-fit: cover; }\n      .slide-4__content__about__text {\n        color: #fff;\n        font-size: 1.4em;\n        padding: 0 15px; }\n        .slide-4__content__about__text p {\n          font-family: Helvetica, Arial, sans-serif;\n          font-weight: 200;\n          line-height: 1.3;\n          margin: 0; }\n", ""]);
+exports.push([module.i, "body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n  height: 0;\n  background-color: #24262b;\n  overflow: hidden; }\n\nmain {\n  position: relative;\n  width: calc(100% - 40px);\n  height: calc(100vh - 90px);\n  margin: 0 20px 20px;\n  top: 0;\n  left: 0;\n  background-color: #2b2e34;\n  border-radius: 10px;\n  overflow: hidden;\n  box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.1); }\n\nh3, li {\n  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; }\n\n.slides {\n  position: relative;\n  height: calc(100% - 30px);\n  padding: 15px;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  transition: ease-in-out 0.4s; }\n  .slides__item {\n    position: relative;\n    width: calc(100vw - 70px);\n    height: 100%;\n    margin-right: 15px; }\n    .slides__item__title {\n      width: 100%;\n      height: 60px;\n      color: #fff;\n      font-size: 2.4em; }\n      .slides__item__title h3 {\n        text-align: center;\n        font-weight: 300;\n        margin-top: 10px;\n        margin-bottom: 15px; }\n      .slides__item__title span {\n        color: #ba73d1;\n        font-weight: 400;\n        margin: 0 3px; }\n    .slides__item__list {\n      color: #fff;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n      .slides__item__list ul {\n        max-width: 769px;\n        background-color: #24262b;\n        padding: 20px 25px 20px 45px;\n        border-radius: 10px;\n        border: 1px solid #2b2e34;\n        box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.2); }\n      .slides__item__list li {\n        font-size: 1.9em;\n        font-weight: 300;\n        margin: 7px 0 9px;\n        word-wrap: break-word; }\n\n.btn {\n  color: #fff !important;\n  border: 1px solid #fff !important;\n  border-radius: 5px !important; }\n\n.tooltip {\n  opacity: 0;\n  cursor: pointer; }\n  .tooltip--active {\n    opacity: 1; }\n  .tooltip::before, .tooltip::after {\n    color: #fff;\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: 1.1em;\n    text-transform: uppercase; }\n\n.mat-select-value,\n.mat-select-arrow {\n  color: #fff !important; }\n\n.mat-select-underline {\n  background-color: #fff !important; }\n\n@-webkit-keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n@keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n.slide-4 {\n  width: 100%;\n  height: 100%; }\n  .slide-4__content {\n    width: 100%;\n    height: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-flow: column nowrap;\n            flex-flow: column nowrap; }\n    .slide-4__content__about {\n      margin-top: 40px;\n      max-width: 800px;\n      background-color: #24262b;\n      padding: 20px;\n      border-radius: 10px;\n      border: 1px solid #2b2e34;\n      display: -webkit-inline-box;\n      display: -ms-inline-flexbox;\n      display: inline-flex;\n      opacity: 0;\n      -webkit-transform: translateY(50px);\n              transform: translateY(50px);\n      box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.2); }\n      .slide-4__content__about--active {\n        opacity: 1;\n        -webkit-transform: translateY(0);\n                transform: translateY(0);\n        -webkit-animation: fade-in ease-in-out 1 .4s;\n                animation: fade-in ease-in-out 1 .4s; }\n      .slide-4__content__about__img {\n        width: 30%;\n        min-width: 250px;\n        max-width: 400px; }\n        .slide-4__content__about__img img {\n          width: 100%;\n          -o-object-fit: cover;\n             object-fit: cover; }\n      .slide-4__content__about__text {\n        color: #fff;\n        font-size: 1.4em;\n        padding: 0 15px; }\n        .slide-4__content__about__text p {\n          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;\n          font-weight: 200;\n          line-height: 1.3;\n          margin: 0; }\n", ""]);
 
 // exports
 
@@ -669,7 +860,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 exports.i(__webpack_require__("../../../../css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../../../postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../material/prebuilt-themes/deeppurple-amber.css"), "");
 
 // module
-exports.push([module.i, "body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n  height: 0;\n  background-color: #24262b;\n  overflow: hidden; }\n\nmain {\n  position: relative;\n  width: calc(100% - 40px);\n  height: calc(100vh - 90px);\n  margin: 0 20px 20px;\n  top: 0;\n  left: 0;\n  background-color: #2b2e34;\n  border-radius: 10px;\n  overflow: hidden;\n  box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.1); }\n\nh3, li {\n  font-family: Helvetica, Arial, sans-serif; }\n\n.slides {\n  position: relative;\n  height: calc(100% - 30px);\n  padding: 15px;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  transition: ease-in-out 0.4s; }\n  .slides__item {\n    position: relative;\n    width: calc(100vw - 70px);\n    height: 100%;\n    margin-right: 15px; }\n    .slides__item__title {\n      width: 100%;\n      height: 60px;\n      color: #fff;\n      font-size: 2.4em; }\n      .slides__item__title h3 {\n        text-align: center;\n        font-weight: 300;\n        margin-top: 10px;\n        margin-bottom: 15px; }\n      .slides__item__title span {\n        color: #ba73d1;\n        font-weight: 400;\n        margin: 0 3px; }\n    .slides__item__list {\n      color: #fff;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n      .slides__item__list ul {\n        max-width: 769px;\n        background-color: #24262b;\n        padding: 20px 25px 20px 45px;\n        border-radius: 10px;\n        border: 1px solid #2b2e34;\n        box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.2); }\n      .slides__item__list li {\n        font-size: 1.9em;\n        font-weight: 300;\n        margin: 7px 0 9px;\n        word-wrap: break-word; }\n\n.btn {\n  color: #fff !important;\n  border: 1px solid #fff !important;\n  border-radius: 5px !important; }\n\n.tooltip {\n  opacity: 0;\n  cursor: pointer; }\n  .tooltip--active {\n    opacity: 1; }\n  .tooltip::before, .tooltip::after {\n    color: #fff;\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: 1.1em;\n    text-transform: uppercase; }\n\n@-webkit-keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n@keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n.slide-5 {\n  width: 100%;\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex; }\n  .slide-5__content {\n    width: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center; }\n    .slide-5__content__code {\n      position: relative;\n      font-size: 4.4em;\n      opacity: 0;\n      -webkit-transform: translateY(40px);\n              transform: translateY(40px);\n      transition: ease-in-out 0.5s;\n      z-index: 2; }\n      .slide-5__content__code--active {\n        opacity: 1;\n        -webkit-transform: translateY(0);\n                transform: translateY(0);\n        transition: ease-in-out 0.5s; }\n  .slide-5__tooltip {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    z-index: 1; }\n    .slide-5__tooltip--brackets {\n      position: absolute;\n      width: 70px;\n      height: 150px;\n      border-top: 1px solid #fff;\n      border-left: 1px solid #fff; }\n      .slide-5__tooltip--brackets::after {\n        content: 'brackets';\n        position: absolute;\n        bottom: -1.7em;\n        left: -65%; }\n    .slide-5__tooltip--tag {\n      position: absolute;\n      border: 1px solid #fff;\n      background-color: #2b2e34;\n      transition: ease-in-out 0.4s; }\n      .slide-5__tooltip--tag::before {\n        content: 'Html tag';\n        position: absolute;\n        top: -1.7em;\n        left: 0;\n        right: 0;\n        text-align: center; }\n      .slide-5__tooltip--tag--hover {\n        transition: ease-in-out 0.4s;\n        background-color: rgba(38, 194, 129, 0.5); }\n    .slide-5__tooltip--tagname {\n      position: absolute;\n      width: 70px;\n      height: 150px;\n      border-top: 1px solid #fff;\n      border-right: 1px solid #fff; }\n      .slide-5__tooltip--tagname::before {\n        content: 'tag name';\n        position: absolute;\n        left: -150%;\n        top: -0.56em;\n        text-align: center; }\n    .slide-5__tooltip--tagclose {\n      position: absolute;\n      width: 150px;\n      height: 50px;\n      border-bottom: 1px solid #fff;\n      border-right: 1px solid #fff; }\n      .slide-5__tooltip--tagclose::after {\n        content: 'close tag';\n        position: absolute;\n        right: -35%;\n        top: -1.7em;\n        text-align: center; }\n", ""]);
+exports.push([module.i, "body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n  height: 0;\n  background-color: #24262b;\n  overflow: hidden; }\n\nmain {\n  position: relative;\n  width: calc(100% - 40px);\n  height: calc(100vh - 90px);\n  margin: 0 20px 20px;\n  top: 0;\n  left: 0;\n  background-color: #2b2e34;\n  border-radius: 10px;\n  overflow: hidden;\n  box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.1); }\n\nh3, li {\n  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; }\n\n.slides {\n  position: relative;\n  height: calc(100% - 30px);\n  padding: 15px;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  transition: ease-in-out 0.4s; }\n  .slides__item {\n    position: relative;\n    width: calc(100vw - 70px);\n    height: 100%;\n    margin-right: 15px; }\n    .slides__item__title {\n      width: 100%;\n      height: 60px;\n      color: #fff;\n      font-size: 2.4em; }\n      .slides__item__title h3 {\n        text-align: center;\n        font-weight: 300;\n        margin-top: 10px;\n        margin-bottom: 15px; }\n      .slides__item__title span {\n        color: #ba73d1;\n        font-weight: 400;\n        margin: 0 3px; }\n    .slides__item__list {\n      color: #fff;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n      .slides__item__list ul {\n        max-width: 769px;\n        background-color: #24262b;\n        padding: 20px 25px 20px 45px;\n        border-radius: 10px;\n        border: 1px solid #2b2e34;\n        box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.2); }\n      .slides__item__list li {\n        font-size: 1.9em;\n        font-weight: 300;\n        margin: 7px 0 9px;\n        word-wrap: break-word; }\n\n.btn {\n  color: #fff !important;\n  border: 1px solid #fff !important;\n  border-radius: 5px !important; }\n\n.tooltip {\n  opacity: 0;\n  cursor: pointer; }\n  .tooltip--active {\n    opacity: 1; }\n  .tooltip::before, .tooltip::after {\n    color: #fff;\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: 1.1em;\n    text-transform: uppercase; }\n\n.mat-select-value,\n.mat-select-arrow {\n  color: #fff !important; }\n\n.mat-select-underline {\n  background-color: #fff !important; }\n\n@-webkit-keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n@keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n.slide-5 {\n  width: 100%;\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex; }\n  .slide-5__content {\n    width: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    -webkit-box-align: center;\n        -ms-flex-align: center;\n            align-items: center; }\n    .slide-5__content__code {\n      position: relative;\n      font-size: 4.4em;\n      opacity: 0;\n      -webkit-transform: translateY(40px);\n              transform: translateY(40px);\n      transition: ease-in-out 0.5s;\n      z-index: 2; }\n      .slide-5__content__code--active {\n        opacity: 1;\n        -webkit-transform: translateY(0);\n                transform: translateY(0);\n        transition: ease-in-out 0.5s; }\n  .slide-5__tooltip {\n    position: absolute;\n    width: 100%;\n    height: 100%;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    z-index: 1; }\n    .slide-5__tooltip--brackets {\n      position: absolute;\n      width: 70px;\n      height: 150px;\n      border-top: 1px solid #fff;\n      border-left: 1px solid #fff; }\n      .slide-5__tooltip--brackets::after {\n        content: 'brackets';\n        position: absolute;\n        bottom: -1.7em;\n        left: -65%; }\n    .slide-5__tooltip--tag {\n      position: absolute;\n      border: 1px solid #fff;\n      background-color: #2b2e34;\n      transition: ease-in-out 0.4s; }\n      .slide-5__tooltip--tag::before {\n        content: 'Html tag';\n        position: absolute;\n        top: -1.7em;\n        left: 0;\n        right: 0;\n        text-align: center; }\n      .slide-5__tooltip--tag--hover {\n        transition: ease-in-out 0.4s;\n        background-color: rgba(38, 194, 129, 0.5); }\n    .slide-5__tooltip--tagname {\n      position: absolute;\n      width: 70px;\n      height: 150px;\n      border-top: 1px solid #fff;\n      border-right: 1px solid #fff; }\n      .slide-5__tooltip--tagname::before {\n        content: 'tag name';\n        position: absolute;\n        left: -150%;\n        top: -0.56em;\n        text-align: center; }\n    .slide-5__tooltip--tagclose {\n      position: absolute;\n      width: 150px;\n      height: 50px;\n      border-bottom: 1px solid #fff;\n      border-right: 1px solid #fff; }\n      .slide-5__tooltip--tagclose::after {\n        content: 'close tag';\n        position: absolute;\n        right: -35%;\n        top: -1.7em;\n        text-align: center; }\n", ""]);
 
 // exports
 
@@ -825,7 +1016,7 @@ var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
 /***/ "../../../../../src/app/components/slide-6/slide-6.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"slide-6\">\n  <div class=\"slide-6__content\">\n    <slide-title [animation]=\"animationActive\" [delay]=\"0\" text=\"2.2 HTML Tags\" strong=\"structure\"></slide-title>\n\n    <div class=\"slide-6__content__examples\">\n      <div #code1 class=\"slide-6__content__examples__code\">\n        <app-code tagName=\"div\" propId=\"elementId\" propClass=\"element-class\"></app-code>\n      </div>\n      <div #code2 class=\"slide-6__content__examples__code\">\n        <app-code tagName=\"h3\" propName=\"element_name\" someCode=\"someCode\"></app-code>\n      </div>\n      <div #code3 class=\"slide-6__content__examples__code\">\n        <app-code tagName=\"img\" singleTag=\"true\" propData=\"elementDataId\"></app-code>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<div class=\"slide-6\">\n  <div class=\"slide-6__content\">\n    <slide-title [animation]=\"animationActive\" [delay]=\"0\" text=\"2.2 HTML Tags\" strong=\"structure\"></slide-title>\n\n    <div class=\"slide-6__content__examples\">\n      <div #code1 class=\"slide-6__content__examples__code\">\n        <app-code tagName=\"div\" propId=\"elementId\" propClass=\"element-class\" someCode=\"some code\"></app-code>\n      </div>\n      <div #code2 class=\"slide-6__content__examples__code\">\n        <app-code tagName=\"h3\" propName=\"element_name\" someCode=\"some code\"></app-code>\n      </div>\n      <div #code3 class=\"slide-6__content__examples__code\">\n        <app-code tagName=\"img\" singleTag=\"true\" propData=\"elementDataId\"></app-code>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -1017,6 +1208,198 @@ var _a, _b, _c;
 
 /***/ }),
 
+/***/ "../../../../../src/app/components/slide-8/slide-8.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"slide-8\">\n  <div class=\"slide-8__content\">\n    <slide-title [animation]=\"animationActive\" text=\"3.1 CSS & CSS\" strong=\"Units\"></slide-title>\n    <info-card [animation]=\"animationActive\">\n      <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language.\n        Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML,\n        the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media.\n        Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages,\n        user interfaces for web applications, and user interfaces for many mobile applications.</p>\n    </info-card>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/slide-8/slide-8.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".slide-8__content {\n  width: 100%;\n  height: 100%; }\n  .slide-8__content info-card {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/slide-8/slide-8.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_state__ = __webpack_require__("../../../../../src/app/app.state.ts");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Slide8Component; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var Slide8Component = (function () {
+    function Slide8Component(st) {
+        var _this = this;
+        this.st = st;
+        this.animationActive = false;
+        this.st.currnetStep.subscribe(function (step) {
+            if (step === 7) {
+                setTimeout(function () {
+                    _this.animationActive = true;
+                }, 400);
+            }
+            else {
+                _this.animationActive = false;
+            }
+        });
+    }
+    Slide8Component.prototype.ngOnInit = function () { };
+    return Slide8Component;
+}());
+Slide8Component = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
+        selector: 'slide-8',
+        template: __webpack_require__("../../../../../src/app/components/slide-8/slide-8.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/components/slide-8/slide-8.component.scss")]
+    }),
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__app_state__["a" /* StateService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__app_state__["a" /* StateService */]) === "function" && _a || Object])
+], Slide8Component);
+
+var _a;
+//# sourceMappingURL=slide-8.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/slide-9/slide-9.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"slide-9\">\n  <div class=\"slide-9__content\">\n    <slide-title [animation]=\"animationActive\" text=\"3.2 CSS & CSS\" strong=\"Units\"></slide-title>\n    <div class=\"slide-9__content__row\">\n      <div #col1 class=\"slide-9__content__col\"\n           [ngClass]=\"{'slide-9__content__col--active': animationCol1}\">\n        <div class=\"slide-9__content__col__header\">\n          <slide-title [animation]=\"animationCol2\" text=\"Absolute\" strong=\"Units\"></slide-title>\n        </div>\n        <div class=\"slide-9__content__col__content\">\n          <info-card [animation]=\"animationActive\">\n            <div *ngFor=\"let item of absolute; let i = index\" class=\"slide-9__content__col__units\">\n              <div class=\"slide-9__content__col__units__num\">\n                <span>{{i + 1}}</span>\n              </div>\n              <p>{{item}}</p>\n            </div>\n          </info-card>\n        </div>\n      </div>\n      <div #col2 class=\"slide-9__content__col\"\n           [ngClass]=\"{'slide-9__content__col--active': animationCol2}\">\n        <div class=\"slide-9__content__col__header\">\n          <slide-title [animation]=\"animationCol2\" text=\"Relative\" strong=\"Units\"></slide-title>\n        </div>\n        <div class=\"slide-9__content__col__content\">\n          <info-card [animation]=\"animationActive\">\n            <div *ngFor=\"let item of relative; let i = index\" class=\"slide-9__content__col__units\">\n              <div class=\"slide-9__content__col__units__num\">\n                <span>{{i + 1}}</span>\n              </div>\n              <p>{{item}}</p>\n            </div>\n          </info-card>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/slide-9/slide-9.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+exports.i(__webpack_require__("../../../../css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../../../postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../material/prebuilt-themes/deeppurple-amber.css"), "");
+
+// module
+exports.push([module.i, "body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n  height: 0;\n  background-color: #24262b;\n  overflow: hidden; }\n\nmain {\n  position: relative;\n  width: calc(100% - 40px);\n  height: calc(100vh - 90px);\n  margin: 0 20px 20px;\n  top: 0;\n  left: 0;\n  background-color: #2b2e34;\n  border-radius: 10px;\n  overflow: hidden;\n  box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.1); }\n\nh3, li {\n  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; }\n\n.slides {\n  position: relative;\n  height: calc(100% - 30px);\n  padding: 15px;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  transition: ease-in-out 0.4s; }\n  .slides__item {\n    position: relative;\n    width: calc(100vw - 70px);\n    height: 100%;\n    margin-right: 15px; }\n    .slides__item__title {\n      width: 100%;\n      height: 60px;\n      color: #fff;\n      font-size: 2.4em; }\n      .slides__item__title h3 {\n        text-align: center;\n        font-weight: 300;\n        margin-top: 10px;\n        margin-bottom: 15px; }\n      .slides__item__title span {\n        color: #ba73d1;\n        font-weight: 400;\n        margin: 0 3px; }\n    .slides__item__list {\n      color: #fff;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n      .slides__item__list ul {\n        max-width: 769px;\n        background-color: #24262b;\n        padding: 20px 25px 20px 45px;\n        border-radius: 10px;\n        border: 1px solid #2b2e34;\n        box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.2); }\n      .slides__item__list li {\n        font-size: 1.9em;\n        font-weight: 300;\n        margin: 7px 0 9px;\n        word-wrap: break-word; }\n\n.btn {\n  color: #fff !important;\n  border: 1px solid #fff !important;\n  border-radius: 5px !important; }\n\n.tooltip {\n  opacity: 0;\n  cursor: pointer; }\n  .tooltip--active {\n    opacity: 1; }\n  .tooltip::before, .tooltip::after {\n    color: #fff;\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: 1.1em;\n    text-transform: uppercase; }\n\n.mat-select-value,\n.mat-select-arrow {\n  color: #fff !important; }\n\n.mat-select-underline {\n  background-color: #fff !important; }\n\n@-webkit-keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n@keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n.slide-9__content__row {\n  width: 100%;\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-orient: horizontal;\n  -webkit-box-direction: normal;\n      -ms-flex-flow: row nowrap;\n          flex-flow: row nowrap;\n  margin-top: 40px; }\n\n.slide-9__content__col {\n  width: calc(50% - 30px);\n  margin: 0 15px;\n  opacity: 0;\n  -webkit-transform: translateX(-100px);\n          transform: translateX(-100px);\n  transition: ease-in-out .4s; }\n  .slide-9__content__col--active {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0);\n    transition: ease-in-out .4s; }\n  .slide-9__content__col__content info-card {\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n        -ms-flex-flow: column;\n            flex-flow: column; }\n  .slide-9__content__col__units {\n    position: relative;\n    width: 100%;\n    display: -webkit-inline-box;\n    display: -ms-inline-flexbox;\n    display: inline-flex; }\n    .slide-9__content__col__units__num {\n      border-right: 2px solid #2b2e34;\n      padding-top: 10px; }\n      .slide-9__content__col__units__num span {\n        color: #ce9766;\n        font-family: Helvetica, Arial, sans-serif;\n        padding-right: 7px;\n        font-size: 1em; }\n    .slide-9__content__col__units p {\n      font-size: 1.2em !important;\n      margin: 7px 0 7px 10px; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/slide-9/slide-9.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_state__ = __webpack_require__("../../../../../src/app/app.state.ts");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Slide9Component; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var Slide9Component = (function () {
+    function Slide9Component(st, renderer) {
+        var _this = this;
+        this.st = st;
+        this.renderer = renderer;
+        this.animationActive = false;
+        this.animationCol1 = false;
+        this.animationCol2 = false;
+        this.absolute = [
+            'cm',
+            'mm',
+            'in - inches (1in = 96px = 2.54cm)',
+            'px - pixels (1px = 1/96th of 1in)',
+            'pt - points (1pt = 1/72 of 1in)',
+            'pc - picas (1pc = 12 pt)'
+        ];
+        this.relative = [
+            'em - Relative to the font-size of the element (2em means 2 times the size of the current font)',
+            'ex - Relative to the x-height of the current font (rarely used)',
+            'ch -	Relative to width of the "0" (zero)',
+            'rem - Relative the root element',
+            'vw -	Relative to 1% of the width of the viewport',
+            'vh -	Relative to 1% of the height of the viewport',
+            'vmin -	Relative to 1% of viewport\'s smaller dimension',
+            'vmax -	Relative to 1% of viewport\'s larger dimension',
+            '%'
+        ];
+        this.st.currnetStep.subscribe(function (step) {
+            if (step === 8) {
+                setTimeout(function () {
+                    _this.animationActive = true;
+                    _this.activeAnimation();
+                }, 400);
+            }
+            else {
+                _this.animationActive = false;
+            }
+        });
+    }
+    Slide9Component.prototype.ngOnInit = function () { };
+    Slide9Component.prototype.activeAnimation = function () {
+        var _this = this;
+        setTimeout(function () {
+            _this.animationCol1 = true;
+        }, 900);
+        setTimeout(function () {
+            _this.animationCol2 = true;
+        }, 1200);
+    };
+    return Slide9Component;
+}());
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])('col1'),
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */]) === "function" && _a || Object)
+], Slide9Component.prototype, "col1", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])('col2'),
+    __metadata("design:type", typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */]) === "function" && _b || Object)
+], Slide9Component.prototype, "col2", void 0);
+Slide9Component = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
+        selector: 'slide-9',
+        template: __webpack_require__("../../../../../src/app/components/slide-9/slide-9.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/components/slide-9/slide-9.component.scss")]
+    }),
+    __metadata("design:paramtypes", [typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1__app_state__["a" /* StateService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__app_state__["a" /* StateService */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* Renderer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* Renderer */]) === "function" && _d || Object])
+], Slide9Component);
+
+var _a, _b, _c, _d;
+//# sourceMappingURL=slide-9.component.js.map
+
+/***/ }),
+
 /***/ "../../../../../src/app/components/slide-list/list.component.html":
 /***/ (function(module, exports) {
 
@@ -1032,7 +1415,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 exports.i(__webpack_require__("../../../../css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../../../postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../material/prebuilt-themes/deeppurple-amber.css"), "");
 
 // module
-exports.push([module.i, "body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n  height: 0;\n  background-color: #24262b;\n  overflow: hidden; }\n\nmain {\n  position: relative;\n  width: calc(100% - 40px);\n  height: calc(100vh - 90px);\n  margin: 0 20px 20px;\n  top: 0;\n  left: 0;\n  background-color: #2b2e34;\n  border-radius: 10px;\n  overflow: hidden;\n  box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.1); }\n\nh3, li {\n  font-family: Helvetica, Arial, sans-serif; }\n\n.slides {\n  position: relative;\n  height: calc(100% - 30px);\n  padding: 15px;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  transition: ease-in-out 0.4s; }\n  .slides__item {\n    position: relative;\n    width: calc(100vw - 70px);\n    height: 100%;\n    margin-right: 15px; }\n    .slides__item__title {\n      width: 100%;\n      height: 60px;\n      color: #fff;\n      font-size: 2.4em; }\n      .slides__item__title h3 {\n        text-align: center;\n        font-weight: 300;\n        margin-top: 10px;\n        margin-bottom: 15px; }\n      .slides__item__title span {\n        color: #ba73d1;\n        font-weight: 400;\n        margin: 0 3px; }\n    .slides__item__list {\n      color: #fff;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n      .slides__item__list ul {\n        max-width: 769px;\n        background-color: #24262b;\n        padding: 20px 25px 20px 45px;\n        border-radius: 10px;\n        border: 1px solid #2b2e34;\n        box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.2); }\n      .slides__item__list li {\n        font-size: 1.9em;\n        font-weight: 300;\n        margin: 7px 0 9px;\n        word-wrap: break-word; }\n\n.btn {\n  color: #fff !important;\n  border: 1px solid #fff !important;\n  border-radius: 5px !important; }\n\n.tooltip {\n  opacity: 0;\n  cursor: pointer; }\n  .tooltip--active {\n    opacity: 1; }\n  .tooltip::before, .tooltip::after {\n    color: #fff;\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: 1.1em;\n    text-transform: uppercase; }\n\n@-webkit-keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n@keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n.slide-list {\n  color: #fff;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  margin-top: 40px;\n  opacity: 0;\n  -webkit-transform: translateY(50px);\n          transform: translateY(50px); }\n  .slide-list--active {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0);\n    -webkit-animation: fade-in ease-in-out 1 .4s;\n            animation: fade-in ease-in-out 1 .4s; }\n  .slide-list ul {\n    max-width: 800px;\n    background-color: #24262b;\n    padding: 20px 25px 20px 45px;\n    border-radius: 10px;\n    border: 1px solid #2b2e34;\n    box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.2); }\n\n::content /deep/ li {\n  font-size: 1.6em;\n  font-weight: 300;\n  margin: 7px 0 15px;\n  word-wrap: break-word; }\n", ""]);
+exports.push([module.i, "body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n  height: 0;\n  background-color: #24262b;\n  overflow: hidden; }\n\nmain {\n  position: relative;\n  width: calc(100% - 40px);\n  height: calc(100vh - 90px);\n  margin: 0 20px 20px;\n  top: 0;\n  left: 0;\n  background-color: #2b2e34;\n  border-radius: 10px;\n  overflow: hidden;\n  box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.1); }\n\nh3, li {\n  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; }\n\n.slides {\n  position: relative;\n  height: calc(100% - 30px);\n  padding: 15px;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  transition: ease-in-out 0.4s; }\n  .slides__item {\n    position: relative;\n    width: calc(100vw - 70px);\n    height: 100%;\n    margin-right: 15px; }\n    .slides__item__title {\n      width: 100%;\n      height: 60px;\n      color: #fff;\n      font-size: 2.4em; }\n      .slides__item__title h3 {\n        text-align: center;\n        font-weight: 300;\n        margin-top: 10px;\n        margin-bottom: 15px; }\n      .slides__item__title span {\n        color: #ba73d1;\n        font-weight: 400;\n        margin: 0 3px; }\n    .slides__item__list {\n      color: #fff;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n      .slides__item__list ul {\n        max-width: 769px;\n        background-color: #24262b;\n        padding: 20px 25px 20px 45px;\n        border-radius: 10px;\n        border: 1px solid #2b2e34;\n        box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.2); }\n      .slides__item__list li {\n        font-size: 1.9em;\n        font-weight: 300;\n        margin: 7px 0 9px;\n        word-wrap: break-word; }\n\n.btn {\n  color: #fff !important;\n  border: 1px solid #fff !important;\n  border-radius: 5px !important; }\n\n.tooltip {\n  opacity: 0;\n  cursor: pointer; }\n  .tooltip--active {\n    opacity: 1; }\n  .tooltip::before, .tooltip::after {\n    color: #fff;\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: 1.1em;\n    text-transform: uppercase; }\n\n.mat-select-value,\n.mat-select-arrow {\n  color: #fff !important; }\n\n.mat-select-underline {\n  background-color: #fff !important; }\n\n@-webkit-keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n@keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n.slide-list {\n  color: #fff;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center;\n  margin-top: 40px;\n  opacity: 0;\n  -webkit-transform: translateY(50px);\n          transform: translateY(50px); }\n  .slide-list--active {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0);\n    -webkit-animation: fade-in ease-in-out 1 .4s;\n            animation: fade-in ease-in-out 1 .4s; }\n  .slide-list ul {\n    max-width: 800px;\n    background-color: #24262b;\n    padding: 20px 25px 20px 45px;\n    border-radius: 10px;\n    border: 1px solid #2b2e34;\n    box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.2); }\n\n::content /deep/ li, p, h3 {\n  font-size: 1.6em;\n  font-weight: 300;\n  margin: 7px 0 15px;\n  word-wrap: break-word;\n  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; }\n", ""]);
 
 // exports
 
@@ -1186,7 +1569,7 @@ SlideTitleComponent = __decorate([
 /***/ "../../../../../src/app/containers/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<app-header></app-header>\n\n<main>\n  <div class=\"slides\" [ngStyle]=\"{'transform': 'translate('+ trakTranslate +'px)'}\">\n\n    <slide-1 class=\"slides__item\"></slide-1>\n\n    <slide-2 class=\"slides__item\"></slide-2>\n\n    <slide-3 class=\"slides__item\"></slide-3>\n\n    <slide-4 class=\"slides__item\"></slide-4>\n\n    <slide-5 class=\"slides__item\"></slide-5>\n\n    <slide-6 class=\"slides__item\"></slide-6>\n\n    <slide-7 class=\"slides__item\"></slide-7>\n\n  </div>\n</main>\n"
+module.exports = "<app-header></app-header>\n\n<main>\n  <div class=\"slides\" [ngStyle]=\"{'transform': 'translate('+ trakTranslate +'px)'}\">\n\n    <slide-1 class=\"slides__item\"></slide-1>\n\n    <slide-2 class=\"slides__item\"></slide-2>\n\n    <slide-3 class=\"slides__item\"></slide-3>\n\n    <slide-4 class=\"slides__item\"></slide-4>\n\n    <slide-5 class=\"slides__item\"></slide-5>\n\n    <slide-6 class=\"slides__item\"></slide-6>\n\n    <slide-7 class=\"slides__item\"></slide-7>\n\n    <slide-8 class=\"slides__item\"></slide-8>\n\n    <slide-9 class=\"slides__item\"></slide-9>\n\n    <slide-10 class=\"slides__item\"></slide-10>\n\n  </div>\n</main>\n"
 
 /***/ }),
 

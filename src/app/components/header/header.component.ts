@@ -14,12 +14,15 @@ export class HeaderComponent implements OnInit {
   currnetStep: number = 0
   slideList: Array<string> = [
     'Start',
-    '1. About Course',
-    '1.1 About HTML',
+    '1.1 About Course',
     '1.2 About HTML',
+    '1.3 About HTML',
     '2.1 HTML tag',
     '2.2 HTML tags structure',
-    '2.3 HTML tags list'
+    '2.3 HTML tags list',
+    '3.1 CSS & CSS units',
+    '3.2 CSS & CSS units',
+    '3.3 CSS Units example'
   ]
 
   constructor(private st: StateService,

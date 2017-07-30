@@ -1,0 +1,39 @@
+<div class="slide-9">
+  <div class="slide-9__content">
+    <slide-title [animation]="animationActive" text="3.2 CSS & CSS" strong="Units"></slide-title>
+    <div class="slide-9__content__row">
+      <div #col1 class="slide-9__content__col"
+           [ngClass]="{'slide-9__content__col--active': animationCol1}">
+        <div class="slide-9__content__col__header">
+          <slide-title [animation]="animationCol2" text="Absolute" strong="Units"></slide-title>
+        </div>
+        <div class="slide-9__content__col__content">
+          <info-card [animation]="animationActive">
+            <div *ngFor="let item of absolute; let i = index" class="slide-9__content__col__units">
+              <div class="slide-9__content__col__units__num">
+                <span>{{i + 1}}</span>
+              </div>
+              <p>{{item}}</p>
+            </div>
+          </info-card>
+        </div>
+      </div>
+      <div #col2 class="slide-9__content__col"
+           [ngClass]="{'slide-9__content__col--active': animationCol2}">
+        <div class="slide-9__content__col__header">
+          <slide-title [animation]="animationCol2" text="Relative" strong="Units"></slide-title>
+        </div>
+        <div class="slide-9__content__col__content">
+          <info-card [animation]="animationActive">
+            <div *ngFor="let item of relative; let i = index" class="slide-9__content__col__units">
+              <div class="slide-9__content__col__units__num">
+                <span>{{i + 1}}</span>
+              </div>
+              <p>{{item}}</p>
+            </div>
+          </info-card>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

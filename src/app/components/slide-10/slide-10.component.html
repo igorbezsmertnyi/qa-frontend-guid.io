@@ -1,0 +1,52 @@
+<div class="slide-10">
+  <div class="slide-10__content">
+    <slide-title [animation]="animationActive" text="3.3 CSS Units" strong="Example"></slide-title>
+
+    <div class="slide-10__content__examples"
+         [ngClass]="{'slide-10__content__examples--active': activeExample}">
+      <div class="slide-10__content__examples__text">
+        <h3 #text [ngStyle]="{'font-size': fontSize + fontUnit}">Hello world</h3>
+      </div>
+
+
+      <div class="slide-10__content__examples__container">
+        <div #div class="slide-10__content__examples__div" [ngStyle]="{'width': divSize + divUnit}">
+          <p>
+            To be, or not to be: that is the question:
+            Whether 'tis nobler in the mind to suffer
+            The slings and arrows of outrageous fortune,
+            Or to take arms against a sea of troubles,
+            And by opposing end them. To die: to sleep;
+            No more; and by a sleep to say we end
+            The heart-ache, and the thousand natural shocks
+            That flesh is heir to, 'tis a consummation
+            Devoutly to be wish'd. To die, to sleep;
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide-10__content__edit"
+         [ngClass]="{'slide-10__content__edit--active': activeEdit}">
+      <div class="slide-10__content__edit__ctrl">
+        <label for="textSize">Change TEXT size: </label>
+        <input id="textSize" type="number" [(ngModel)]="fontSize" [value]="fontSize" min="0" max="100">
+        <md-select [(ngModel)]="fontUnit" name="font_units">
+          <md-option *ngFor="let unit of units" [value]="unit">
+            {{ unit }}
+          </md-option>
+        </md-select>
+      </div>
+
+      <div class="slide-10__content__edit__ctrl">
+        <label for="divSize">Change DIV size: </label>
+        <input id="divSize" type="number" [(ngModel)]="divSize" [value]="divSize" min="0" max="100">
+        <md-select [(ngModel)]="divUnit" name="div_units">
+          <md-option *ngFor="let unit of units"  selected="unit ? '%'" [value]="unit">
+            {{ unit }}
+          </md-option>
+        </md-select>
+      </div>
+    </div>
+  </div>
+</div>

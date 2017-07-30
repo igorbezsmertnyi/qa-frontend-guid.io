@@ -1,0 +1,33 @@
+@import '../../../styles';
+
+.info-card {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: ease-in-out .4s;
+  margin-top: 20px;
+  width: 100%;
+  max-width: calc(100% - 100px);
+  background-color: $layout-dark;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid $layout-light;
+  opacity: 0;
+  transform: translateY(50px);
+
+  @include component-shadow;
+
+  &--active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: ease-in-out .4s;
+  }
+
+  ::content /deep/ p, h3 {
+    font-size: 1.6em;
+    font-weight: 300;
+    margin: 7px 0 15px;
+    word-wrap: break-word;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #fff;
+  }
+}
