@@ -1,0 +1,25 @@
+<code class="css-code">
+	<span *ngIf="selector === 'all'" class="css-code__all">
+		*<span class="css-code__breaket">{{ '{' }}</span>
+	</span>
+
+	<span *ngIf="selector === 'class'" class="css-code__class">
+		.<span>{{name}}</span>
+		<span class="css-code__breaket">{{ '{' }}</span>
+	</span>
+
+	<span *ngIf="selector === 'id'" class="css-code__id">
+		#<span>{{name}}</span>
+		<span class="css-code__breaket">{{ '{' }}</span>
+	</span>
+
+	<span *ngIf="selector === 'tag'" class="css-code__tag">
+		<span>{{name}}</span>
+		<span class="css-code__breaket">{{ '{' }}</span>
+	</span>
+	<br/>
+
+	<ng-content></ng-content>
+
+	<span class="css-code__breaket">{{ '}' }}</span>
+</code>

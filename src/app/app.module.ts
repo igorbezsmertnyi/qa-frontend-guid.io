@@ -12,6 +12,7 @@ import { CodeComponent } from './components/code/code.component'
 import { SlideListComponent } from './components/slide-list/list.component'
 import { SlideTitleComponent } from './components/slide-title/slide-title.component'
 import { InfoCardComponent } from './components/info-card/info-card.component'
+import { CssCodeComponent } from './components/css-code/css-code.component'
 
 import { Slide1Component } from './components/slide-1/slide-1.component'
 import { Slide2Component } from './components/slide-2/slide-2.component'
@@ -23,8 +24,9 @@ import { Slide7Component } from './components/slide-7/slide-7.component'
 import { Slide8Component } from './components/slide-8/slide-8.component'
 import { Slide9Component } from './components/slide-9/slide-9.component'
 import { Slide10Component } from './components/slide-10/slide-10.component'
+import { Slide11Component } from './components/slide-11/slide-11.component'
 
-import { StateService } from './app.state'
+import { StateService } from './app.state';
 
 @NgModule({
   declarations: [
@@ -44,6 +46,8 @@ import { StateService } from './app.state'
     InfoCardComponent,
     Slide9Component,
     Slide10Component,
+    Slide11Component,
+    CssCodeComponent,
   ],
   imports: [
     HttpModule,

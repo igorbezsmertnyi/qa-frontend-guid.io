@@ -22,7 +22,8 @@ export class HeaderComponent implements OnInit {
     '2.3 HTML tags list',
     '3.1 CSS & CSS units',
     '3.2 CSS & CSS units',
-    '3.3 CSS Units example'
+    '3.3 CSS Units example',
+		'4.1 CSS Selectors'
   ]
 
   constructor(private st: StateService,

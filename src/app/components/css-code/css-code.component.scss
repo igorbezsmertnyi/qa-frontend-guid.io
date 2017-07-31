@@ -1,0 +1,46 @@
+@import '../../../styles';
+
+.css-code {
+	&__class {
+		color: $logo-orange;
+	}
+
+	&__id {
+		color: $picton-blue;
+	}
+
+	&__tag,
+	&__all {
+		color: $red-orange;
+	}
+
+	&__breaket {
+		color: #fff;
+		white-space: pre-line;
+	}
+
+	&::content /deep/ strong {
+		color: #fff;
+		font-weight: 200;
+		font-size: 0.9em;
+		padding-left: 25px;
+		margin-right: 10px;
+	}
+
+	&::content /deep/ i {
+		color: $logo-orange;
+		font-weight: 200;
+		font-size: 0.9em;
+
+		&::after {
+			content: "\a ";
+    	white-space: pre-line;
+		}
+
+		&:last-child {
+			&::after {
+				content: '';
+			}
+		}
+	}
+}

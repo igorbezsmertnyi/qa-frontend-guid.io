@@ -29,17 +29,19 @@ webpackEmptyContext.id = "../../../../../src async recursive";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_slide_list_list_component__ = __webpack_require__("../../../../../src/app/components/slide-list/list.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_slide_title_slide_title_component__ = __webpack_require__("../../../../../src/app/components/slide-title/slide-title.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_info_card_info_card_component__ = __webpack_require__("../../../../../src/app/components/info-card/info-card.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_slide_1_slide_1_component__ = __webpack_require__("../../../../../src/app/components/slide-1/slide-1.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_slide_2_slide_2_component__ = __webpack_require__("../../../../../src/app/components/slide-2/slide-2.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_slide_3_slide_3_component__ = __webpack_require__("../../../../../src/app/components/slide-3/slide-3.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_slide_4_slide_4_component__ = __webpack_require__("../../../../../src/app/components/slide-4/slide-4.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_slide_5_slide_5_component__ = __webpack_require__("../../../../../src/app/components/slide-5/slide-5.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_slide_6_slide_6_component__ = __webpack_require__("../../../../../src/app/components/slide-6/slide-6.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_slide_7_slide_7_component__ = __webpack_require__("../../../../../src/app/components/slide-7/slide-7.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_slide_8_slide_8_component__ = __webpack_require__("../../../../../src/app/components/slide-8/slide-8.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_slide_9_slide_9_component__ = __webpack_require__("../../../../../src/app/components/slide-9/slide-9.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_slide_10_slide_10_component__ = __webpack_require__("../../../../../src/app/components/slide-10/slide-10.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__app_state__ = __webpack_require__("../../../../../src/app/app.state.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_css_code_css_code_component__ = __webpack_require__("../../../../../src/app/components/css-code/css-code.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_slide_1_slide_1_component__ = __webpack_require__("../../../../../src/app/components/slide-1/slide-1.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_slide_2_slide_2_component__ = __webpack_require__("../../../../../src/app/components/slide-2/slide-2.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_slide_3_slide_3_component__ = __webpack_require__("../../../../../src/app/components/slide-3/slide-3.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_slide_4_slide_4_component__ = __webpack_require__("../../../../../src/app/components/slide-4/slide-4.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_slide_5_slide_5_component__ = __webpack_require__("../../../../../src/app/components/slide-5/slide-5.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_slide_6_slide_6_component__ = __webpack_require__("../../../../../src/app/components/slide-6/slide-6.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_slide_7_slide_7_component__ = __webpack_require__("../../../../../src/app/components/slide-7/slide-7.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_slide_8_slide_8_component__ = __webpack_require__("../../../../../src/app/components/slide-8/slide-8.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_slide_9_slide_9_component__ = __webpack_require__("../../../../../src/app/components/slide-9/slide-9.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_slide_10_slide_10_component__ = __webpack_require__("../../../../../src/app/components/slide-10/slide-10.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_slide_11_slide_11_component__ = __webpack_require__("../../../../../src/app/components/slide-11/slide-11.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__app_state__ = __webpack_require__("../../../../../src/app/app.state.ts");
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -47,6 +49,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -81,19 +85,21 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_6__containers_app_app_component__["a" /* AppComponent */],
             __WEBPACK_IMPORTED_MODULE_7__components_header_header_component__["a" /* HeaderComponent */],
             __WEBPACK_IMPORTED_MODULE_8__components_code_code_component__["a" /* CodeComponent */],
-            __WEBPACK_IMPORTED_MODULE_12__components_slide_1_slide_1_component__["a" /* Slide1Component */],
-            __WEBPACK_IMPORTED_MODULE_13__components_slide_2_slide_2_component__["a" /* Slide2Component */],
+            __WEBPACK_IMPORTED_MODULE_13__components_slide_1_slide_1_component__["a" /* Slide1Component */],
+            __WEBPACK_IMPORTED_MODULE_14__components_slide_2_slide_2_component__["a" /* Slide2Component */],
             __WEBPACK_IMPORTED_MODULE_9__components_slide_list_list_component__["a" /* SlideListComponent */],
             __WEBPACK_IMPORTED_MODULE_10__components_slide_title_slide_title_component__["a" /* SlideTitleComponent */],
-            __WEBPACK_IMPORTED_MODULE_14__components_slide_3_slide_3_component__["a" /* Slide3Component */],
-            __WEBPACK_IMPORTED_MODULE_15__components_slide_4_slide_4_component__["a" /* Slide4Component */],
-            __WEBPACK_IMPORTED_MODULE_16__components_slide_5_slide_5_component__["a" /* Slide5Component */],
-            __WEBPACK_IMPORTED_MODULE_17__components_slide_6_slide_6_component__["a" /* Slide6Component */],
-            __WEBPACK_IMPORTED_MODULE_18__components_slide_7_slide_7_component__["a" /* Slide7Component */],
-            __WEBPACK_IMPORTED_MODULE_19__components_slide_8_slide_8_component__["a" /* Slide8Component */],
+            __WEBPACK_IMPORTED_MODULE_15__components_slide_3_slide_3_component__["a" /* Slide3Component */],
+            __WEBPACK_IMPORTED_MODULE_16__components_slide_4_slide_4_component__["a" /* Slide4Component */],
+            __WEBPACK_IMPORTED_MODULE_17__components_slide_5_slide_5_component__["a" /* Slide5Component */],
+            __WEBPACK_IMPORTED_MODULE_18__components_slide_6_slide_6_component__["a" /* Slide6Component */],
+            __WEBPACK_IMPORTED_MODULE_19__components_slide_7_slide_7_component__["a" /* Slide7Component */],
+            __WEBPACK_IMPORTED_MODULE_20__components_slide_8_slide_8_component__["a" /* Slide8Component */],
             __WEBPACK_IMPORTED_MODULE_11__components_info_card_info_card_component__["a" /* InfoCardComponent */],
-            __WEBPACK_IMPORTED_MODULE_20__components_slide_9_slide_9_component__["a" /* Slide9Component */],
-            __WEBPACK_IMPORTED_MODULE_21__components_slide_10_slide_10_component__["a" /* Slide10Component */],
+            __WEBPACK_IMPORTED_MODULE_21__components_slide_9_slide_9_component__["a" /* Slide9Component */],
+            __WEBPACK_IMPORTED_MODULE_22__components_slide_10_slide_10_component__["a" /* Slide10Component */],
+            __WEBPACK_IMPORTED_MODULE_23__components_slide_11_slide_11_component__["a" /* Slide11Component */],
+            __WEBPACK_IMPORTED_MODULE_12__components_css_code_css_code_component__["a" /* CssCodeComponent */],
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_5__angular_http__["a" /* HttpModule */],
@@ -105,7 +111,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */]
         ],
         providers: [
-            __WEBPACK_IMPORTED_MODULE_22__app_state__["a" /* StateService */]
+            __WEBPACK_IMPORTED_MODULE_24__app_state__["a" /* StateService */]
         ],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_6__containers_app_app_component__["a" /* AppComponent */]]
     })
@@ -239,6 +245,85 @@ CodeComponent = __decorate([
 
 /***/ }),
 
+/***/ "../../../../../src/app/components/css-code/css-code.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<code class=\"css-code\">\n\t<span *ngIf=\"selector === 'all'\" class=\"css-code__all\">\n\t\t*<span class=\"css-code__breaket\">{{ '{' }}</span>\n\t</span>\n\n\t<span *ngIf=\"selector === 'class'\" class=\"css-code__class\">\n\t\t.<span>{{name}}</span>\n\t\t<span class=\"css-code__breaket\">{{ '{' }}</span>\n\t</span>\n\n\t<span *ngIf=\"selector === 'id'\" class=\"css-code__id\">\n\t\t#<span>{{name}}</span>\n\t\t<span class=\"css-code__breaket\">{{ '{' }}</span>\n\t</span>\n\n\t<span *ngIf=\"selector === 'tag'\" class=\"css-code__tag\">\n\t\t<span>{{name}}</span>\n\t\t<span class=\"css-code__breaket\">{{ '{' }}</span>\n\t</span>\n\t<br/>\n\n\t<ng-content></ng-content>\n\n\t<span class=\"css-code__breaket\">{{ '}' }}</span>\n</code>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/css-code/css-code.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+exports.i(__webpack_require__("../../../../css-loader/index.js?{\"sourceMap\":false,\"importLoaders\":1}!../../../../postcss-loader/index.js?{\"ident\":\"postcss\"}!../../../material/prebuilt-themes/deeppurple-amber.css"), "");
+
+// module
+exports.push([module.i, "body {\n  width: 100vw;\n  height: 100vh;\n  margin: 0;\n  height: 0;\n  background-color: #24262b;\n  overflow: hidden; }\n\nmain {\n  position: relative;\n  width: calc(100% - 40px);\n  height: calc(100vh - 90px);\n  margin: 0 20px 20px;\n  top: 0;\n  left: 0;\n  background-color: #2b2e34;\n  border-radius: 10px;\n  overflow: hidden;\n  box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.1); }\n\nh3, li {\n  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; }\n\n.slides {\n  position: relative;\n  height: calc(100% - 30px);\n  padding: 15px;\n  display: -webkit-inline-box;\n  display: -ms-inline-flexbox;\n  display: inline-flex;\n  transition: ease-in-out 0.4s; }\n  .slides__item {\n    position: relative;\n    width: calc(100vw - 70px);\n    height: 100%;\n    margin-right: 15px; }\n    .slides__item__title {\n      width: 100%;\n      height: 60px;\n      color: #fff;\n      font-size: 2.4em; }\n      .slides__item__title h3 {\n        text-align: center;\n        font-weight: 300;\n        margin-top: 10px;\n        margin-bottom: 15px; }\n      .slides__item__title span {\n        color: #ba73d1;\n        font-weight: 400;\n        margin: 0 3px; }\n    .slides__item__list {\n      color: #fff;\n      display: -webkit-box;\n      display: -ms-flexbox;\n      display: flex;\n      -webkit-box-pack: center;\n          -ms-flex-pack: center;\n              justify-content: center; }\n      .slides__item__list ul {\n        max-width: 769px;\n        background-color: #24262b;\n        padding: 20px 25px 20px 45px;\n        border-radius: 10px;\n        border: 1px solid #2b2e34;\n        box-shadow: 0px -1px 8px 2px rgba(0, 0, 0, 0.2); }\n      .slides__item__list li {\n        font-size: 1.9em;\n        font-weight: 300;\n        margin: 7px 0 9px;\n        word-wrap: break-word; }\n\n.btn {\n  color: #fff !important;\n  border: 1px solid #fff !important;\n  border-radius: 5px !important; }\n\n.tooltip {\n  opacity: 0;\n  cursor: pointer; }\n  .tooltip--active {\n    opacity: 1; }\n  .tooltip::before, .tooltip::after {\n    color: #fff;\n    font-family: Helvetica, Arial, sans-serif;\n    font-size: 1.1em;\n    text-transform: uppercase; }\n\n.mat-select-value,\n.mat-select-arrow {\n  color: #fff !important; }\n\n.mat-select-underline {\n  background-color: #fff !important; }\n\n@-webkit-keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n@keyframes fade-in {\n  0% {\n    opacity: 0;\n    -webkit-transform: translateY(50px);\n            transform: translateY(50px); }\n  100% {\n    opacity: 1;\n    -webkit-transform: translateY(0);\n            transform: translateY(0); } }\n\n.css-code__class {\n  color: #ce9766; }\n\n.css-code__id {\n  color: #22A7F0; }\n\n.css-code__tag, .css-code__all {\n  color: #E68364; }\n\n.css-code__breaket {\n  color: #fff;\n  white-space: pre-line; }\n\n.css-code::content /deep/ strong {\n  color: #fff;\n  font-weight: 200;\n  font-size: 0.9em;\n  padding-left: 25px;\n  margin-right: 10px; }\n\n.css-code::content /deep/ i {\n  color: #ce9766;\n  font-weight: 200;\n  font-size: 0.9em; }\n  .css-code::content /deep/ i::after {\n    content: \"\\A   \";\n    white-space: pre-line; }\n  .css-code::content /deep/ i:last-child::after {\n    content: ''; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/css-code/css-code.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CssCodeComponent; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var CssCodeComponent = (function () {
+    function CssCodeComponent() {
+        this.selector = 'class';
+        this.content = [];
+        this.example = false;
+    }
+    CssCodeComponent.prototype.ngOnInit = function () { };
+    return CssCodeComponent;
+}());
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Input */])(),
+    __metadata("design:type", String)
+], CssCodeComponent.prototype, "selector", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Input */])(),
+    __metadata("design:type", String)
+], CssCodeComponent.prototype, "name", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Input */])(),
+    __metadata("design:type", Object)
+], CssCodeComponent.prototype, "content", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Input */])(),
+    __metadata("design:type", Boolean)
+], CssCodeComponent.prototype, "example", void 0);
+CssCodeComponent = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
+        selector: 'css-code',
+        template: __webpack_require__("../../../../../src/app/components/css-code/css-code.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/components/css-code/css-code.component.scss")]
+    }),
+    __metadata("design:paramtypes", [])
+], CssCodeComponent);
+
+//# sourceMappingURL=css-code.component.js.map
+
+/***/ }),
+
 /***/ "../../../../../src/app/components/header/header.component.html":
 /***/ (function(module, exports) {
 
@@ -298,7 +383,8 @@ var HeaderComponent = (function () {
             '2.3 HTML tags list',
             '3.1 CSS & CSS units',
             '3.2 CSS & CSS units',
-            '3.3 CSS Units example'
+            '3.3 CSS Units example',
+            '4.1 CSS Selectors'
         ];
         this.st.currnetStep.subscribe(function (step) { return _this.currnetStep = step; });
     }
@@ -613,6 +699,163 @@ Slide10Component = __decorate([
 
 var _a, _b, _c, _d;
 //# sourceMappingURL=slide-10.component.js.map
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/slide-11/slide-11.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"slide-11\">\n  <div class=\"slide-11__content\">\n\t\t<slide-title [animation]=\"animationActive\" text=\"4.1 CSS\" strong=\"Selectors\"></slide-title>\n\n\t\t<div class=\"slide-11__content__row\">\n\t\t\t<div #selectorAll class=\"slide-11__content__col\">\n\t\t\t\t<css-code selector=\"all\">\n\t\t\t\t\t<strong>color:</strong><i>#ff0;</i>\n\t\t\t\t\t<strong>padding:</strong><i>0;</i>\n\t\t\t\t\t<strong>font-size:</strong><i>3rem;</i>\n\t\t\t\t</css-code>\n\t\t\t\t<div #selectorAllTooltip class=\"tooltip slide-11__tooltip--all\"></div>\n\t\t\t</div>\n\n\t\t\t<div #selectorClass class=\"slide-11__content__col\">\n\t\t\t\t<css-code selector=\"class\" name=\"element-class\">\n\t\t\t\t\t<strong>background-image:</strong><i>url('assets/logo.svg');</i>\n\t\t\t\t\t<strong>object-fit:</strong><i>cover;</i>\n\t\t\t\t\t<strong>cursor:</strong><i>zoom;</i>\n\t\t\t\t</css-code>\n\t\t\t\t<div #selectorClassTooltip class=\"tooltip slide-11__tooltip--class\"></div>\n\t\t\t</div>\n\n\t\t\t<div #selectorId class=\"slide-11__content__col\">\n\t\t\t\t<css-code selector=\"id\" name=\"elementId\">\n\t\t\t\t\t<strong>height:</strong><i>30px;</i>\n\t\t\t\t\t<strong>margin:</strong><i>20px 5px 10px;</i>\n\t\t\t\t\t<strong>opacity:</strong><i>.7;</i>\n\t\t\t\t</css-code>\n\t\t\t\t<div #selectorIdTooltip class=\"tooltip slide-11__tooltip--id\"></div>\n\t\t\t</div>\n\n\t\t\t<div #selectorTag class=\"slide-11__content__col\">\n\t\t\t\t<css-code selector=\"tag\" name=\"input\">\n\t\t\t\t\t<strong>display:</strong><i>none;</i>\n\t\t\t\t\t<strong>transform:</strong><i>translateY(50px);</i>\n\t\t\t\t\t<strong>rigth:</strong><i>30%;</i>\n\t\t\t\t</css-code>\n\t\t\t\t<div #selectorTagTooltip class=\"tooltip slide-11__tooltip--tag\"></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>\n"
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/slide-11/slide-11.component.scss":
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".slide-11__content {\n  width: 100%;\n  height: 100%;\n  display: -webkit-box;\n  display: -ms-flexbox;\n  display: flex;\n  -webkit-box-align: center;\n      -ms-flex-align: center;\n          align-items: center;\n  -webkit-box-orient: vertical;\n  -webkit-box-direction: normal;\n      -ms-flex-flow: column nowrap;\n          flex-flow: column nowrap;\n  -webkit-box-pack: center;\n      -ms-flex-pack: center;\n          justify-content: center; }\n  .slide-11__content__row {\n    position: relative;\n    width: 100%;\n    max-width: 1042px;\n    margin-top: 70px;\n    margin-left: 200px;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n        -ms-flex-flow: row wrap;\n            flex-flow: row wrap;\n    -webkit-box-pack: center;\n        -ms-flex-pack: center;\n            justify-content: center; }\n  .slide-11__content__col {\n    position: relative;\n    width: calc((100% / 2) - 30px);\n    margin: 40px 15px;\n    opacity: 0;\n    -webkit-transform: translateY(100px);\n            transform: translateY(100px);\n    transition: ease-in-out .4s; }\n    .slide-11__content__col--active {\n      transition: ease-in-out .4s;\n      opacity: 1;\n      -webkit-transform: translateY(0);\n              transform: translateY(0); }\n  .slide-11__content css-code {\n    font-size: 1.4em; }\n\n.slide-11__tooltip--all {\n  position: absolute;\n  width: 80px;\n  height: 30px;\n  border-bottom: 1px solid #fff;\n  border-left: 1px solid #fff; }\n  .slide-11__tooltip--all::before {\n    content: 'select all elements';\n    position: absolute;\n    left: -7em;\n    top: -1.7em;\n    font-size: 0.8em; }\n\n.slide-11__tooltip--class {\n  position: absolute;\n  width: 140px;\n  height: 60px;\n  border-top: 1px solid #fff;\n  border-left: 1px solid #fff; }\n  .slide-11__tooltip--class::before {\n    content: 'select elements by class name';\n    position: absolute;\n    left: -7em;\n    top: 5.2em;\n    font-size: 0.8em; }\n\n.slide-11__tooltip--id {\n  position: absolute;\n  width: 50px;\n  height: 150px;\n  border-top: 1px solid #fff;\n  border-left: 1px solid #fff; }\n  .slide-11__tooltip--id::before {\n    content: 'select elements by id';\n    position: absolute;\n    left: -9em;\n    top: 13em;\n    font-size: 0.8em; }\n\n.slide-11__tooltip--tag {\n  position: absolute;\n  width: 1px;\n  height: 30px;\n  border-left: 1px solid #fff; }\n  .slide-11__tooltip--tag::before {\n    content: 'select elements by tag name';\n    position: absolute;\n    left: -9em;\n    right: -8em;\n    top: -2em;\n    font-size: 0.8em; }\n", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
+/***/ "../../../../../src/app/components/slide-11/slide-11.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_state__ = __webpack_require__("../../../../../src/app/app.state.ts");
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Slide11Component; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var Slide11Component = (function () {
+    function Slide11Component(st, renderer) {
+        var _this = this;
+        this.st = st;
+        this.renderer = renderer;
+        this.animationActive = false;
+        this.st.currnetStep.subscribe(function (step) {
+            if (step === 10) {
+                setTimeout(function () {
+                    _this.animationActive = true;
+                    _this.activeAnim();
+                    _this.setTooltip();
+                    _this.activeTooltips();
+                }, 400);
+            }
+            else {
+                _this.animationActive = false;
+            }
+        });
+    }
+    Slide11Component.prototype.ngOnInit = function () {
+        this.selectAllRect = this.selectorAll.nativeElement.getBoundingClientRect();
+        this.selectClassRect = this.selectorClass.nativeElement.getBoundingClientRect();
+        this.selectIdRect = this.selectorId.nativeElement.getBoundingClientRect();
+        this.selectTagRect = this.selectorTag.nativeElement.getBoundingClientRect();
+    };
+    Slide11Component.prototype.activeAnim = function () {
+        var _this = this;
+        setTimeout(function () {
+            _this.renderer.setElementClass(_this.selectorAll.nativeElement, 'slide-11__content__col--active', true);
+        }, 700);
+        setTimeout(function () {
+            _this.renderer.setElementClass(_this.selectorClass.nativeElement, 'slide-11__content__col--active', true);
+        }, 800);
+        setTimeout(function () {
+            _this.renderer.setElementClass(_this.selectorId.nativeElement, 'slide-11__content__col--active', true);
+        }, 900);
+        setTimeout(function () {
+            _this.renderer.setElementClass(_this.selectorTag.nativeElement, 'slide-11__content__col--active', true);
+        }, 1000);
+    };
+    Slide11Component.prototype.setTooltip = function () {
+        this.selectorAllTooltip.nativeElement.style.top = (this.selectAllRect.height / 2) - 70 + "px";
+        this.selectorAllTooltip.nativeElement.style.left = '-100px';
+        this.selectorClassTooltip.nativeElement.style.top = (this.selectClassRect.height / 2) - 40 + "px";
+        this.selectorClassTooltip.nativeElement.style.left = '-160px';
+        this.selectorIdTooltip.nativeElement.style.top = (this.selectIdRect.height / 2) - 40 + "px";
+        this.selectorIdTooltip.nativeElement.style.left = '-80px';
+        this.selectorTagTooltip.nativeElement.style.top = (this.selectTagRect.height / 2) - 90 + "px";
+        this.selectorTagTooltip.nativeElement.style.left = '40px';
+    };
+    Slide11Component.prototype.activeTooltips = function () {
+        var _this = this;
+        setTimeout(function () {
+            _this.renderer.setElementClass(_this.selectorAllTooltip.nativeElement, 'tooltip--active', true);
+        }, 1300);
+        setTimeout(function () {
+            _this.renderer.setElementClass(_this.selectorClassTooltip.nativeElement, 'tooltip--active', true);
+        }, 1400);
+        setTimeout(function () {
+            _this.renderer.setElementClass(_this.selectorIdTooltip.nativeElement, 'tooltip--active', true);
+        }, 1500);
+        setTimeout(function () {
+            _this.renderer.setElementClass(_this.selectorTagTooltip.nativeElement, 'tooltip--active', true);
+        }, 1600);
+    };
+    return Slide11Component;
+}());
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])('selectorAll'),
+    __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */]) === "function" && _a || Object)
+], Slide11Component.prototype, "selectorAll", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])('selectorClass'),
+    __metadata("design:type", typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */]) === "function" && _b || Object)
+], Slide11Component.prototype, "selectorClass", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])('selectorId'),
+    __metadata("design:type", typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */]) === "function" && _c || Object)
+], Slide11Component.prototype, "selectorId", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])('selectorTag'),
+    __metadata("design:type", typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */]) === "function" && _d || Object)
+], Slide11Component.prototype, "selectorTag", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])('selectorAllTooltip'),
+    __metadata("design:type", typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */]) === "function" && _e || Object)
+], Slide11Component.prototype, "selectorAllTooltip", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])('selectorClassTooltip'),
+    __metadata("design:type", typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */]) === "function" && _f || Object)
+], Slide11Component.prototype, "selectorClassTooltip", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])('selectorIdTooltip'),
+    __metadata("design:type", typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */]) === "function" && _g || Object)
+], Slide11Component.prototype, "selectorIdTooltip", void 0);
+__decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_7" /* ViewChild */])('selectorTagTooltip'),
+    __metadata("design:type", typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ElementRef */]) === "function" && _h || Object)
+], Slide11Component.prototype, "selectorTagTooltip", void 0);
+Slide11Component = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
+        selector: 'slide-11',
+        template: __webpack_require__("../../../../../src/app/components/slide-11/slide-11.component.html"),
+        styles: [__webpack_require__("../../../../../src/app/components/slide-11/slide-11.component.scss")]
+    }),
+    __metadata("design:paramtypes", [typeof (_j = typeof __WEBPACK_IMPORTED_MODULE_1__app_state__["a" /* StateService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__app_state__["a" /* StateService */]) === "function" && _j || Object, typeof (_k = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* Renderer */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["W" /* Renderer */]) === "function" && _k || Object])
+], Slide11Component);
+
+var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
+//# sourceMappingURL=slide-11.component.js.map
 
 /***/ }),
 
@@ -1569,7 +1812,7 @@ SlideTitleComponent = __decorate([
 /***/ "../../../../../src/app/containers/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<app-header></app-header>\n\n<main>\n  <div class=\"slides\" [ngStyle]=\"{'transform': 'translate('+ trakTranslate +'px)'}\">\n\n    <slide-1 class=\"slides__item\"></slide-1>\n\n    <slide-2 class=\"slides__item\"></slide-2>\n\n    <slide-3 class=\"slides__item\"></slide-3>\n\n    <slide-4 class=\"slides__item\"></slide-4>\n\n    <slide-5 class=\"slides__item\"></slide-5>\n\n    <slide-6 class=\"slides__item\"></slide-6>\n\n    <slide-7 class=\"slides__item\"></slide-7>\n\n    <slide-8 class=\"slides__item\"></slide-8>\n\n    <slide-9 class=\"slides__item\"></slide-9>\n\n    <slide-10 class=\"slides__item\"></slide-10>\n\n  </div>\n</main>\n"
+module.exports = "<app-header></app-header>\n\n<main>\n  <div class=\"slides\" [ngStyle]=\"{'transform': 'translate('+ trakTranslate +'px)'}\">\n\n    <slide-1 class=\"slides__item\"></slide-1>\n\n    <slide-2 class=\"slides__item\"></slide-2>\n\n    <slide-3 class=\"slides__item\"></slide-3>\n\n    <slide-4 class=\"slides__item\"></slide-4>\n\n    <slide-5 class=\"slides__item\"></slide-5>\n\n    <slide-6 class=\"slides__item\"></slide-6>\n\n    <slide-7 class=\"slides__item\"></slide-7>\n\n    <slide-8 class=\"slides__item\"></slide-8>\n\n    <slide-9 class=\"slides__item\"></slide-9>\n\n    <slide-10 class=\"slides__item\"></slide-10>\n\n\t\t<slide-11 class=\"slides__item\"></slide-11>\n\n  </div>\n</main>\n"
 
 /***/ }),
 

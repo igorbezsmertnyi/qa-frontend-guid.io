@@ -1,0 +1,43 @@
+<div class="slide-11">
+  <div class="slide-11__content">
+		<slide-title [animation]="animationActive" text="4.1 CSS" strong="Selectors"></slide-title>
+
+		<div class="slide-11__content__row">
+			<div #selectorAll class="slide-11__content__col">
+				<css-code selector="all">
+					<strong>color:</strong><i>#ff0;</i>
+					<strong>padding:</strong><i>0;</i>
+					<strong>font-size:</strong><i>3rem;</i>
+				</css-code>
+				<div #selectorAllTooltip class="tooltip slide-11__tooltip--all"></div>
+			</div>
+
+			<div #selectorClass class="slide-11__content__col">
+				<css-code selector="class" name="element-class">
+					<strong>background-image:</strong><i>url('assets/logo.svg');</i>
+					<strong>object-fit:</strong><i>cover;</i>
+					<strong>cursor:</strong><i>zoom;</i>
+				</css-code>
+				<div #selectorClassTooltip class="tooltip slide-11__tooltip--class"></div>
+			</div>
+
+			<div #selectorId class="slide-11__content__col">
+				<css-code selector="id" name="elementId">
+					<strong>height:</strong><i>30px;</i>
+					<strong>margin:</strong><i>20px 5px 10px;</i>
+					<strong>opacity:</strong><i>.7;</i>
+				</css-code>
+				<div #selectorIdTooltip class="tooltip slide-11__tooltip--id"></div>
+			</div>
+
+			<div #selectorTag class="slide-11__content__col">
+				<css-code selector="tag" name="input">
+					<strong>display:</strong><i>none;</i>
+					<strong>transform:</strong><i>translateY(50px);</i>
+					<strong>rigth:</strong><i>30%;</i>
+				</css-code>
+				<div #selectorTagTooltip class="tooltip slide-11__tooltip--tag"></div>
+			</div>
+		</div>
+	</div>
+</div>
