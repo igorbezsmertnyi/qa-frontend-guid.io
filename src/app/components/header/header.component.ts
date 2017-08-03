@@ -23,7 +23,8 @@ export class HeaderComponent implements OnInit {
     '3.1 CSS & CSS units',
     '3.2 CSS & CSS units',
     '3.3 CSS Units example',
-		'4.1 CSS Selectors'
+		'4 CSS Selectors',
+    '5 CSS Margin & Padding'
   ]
 
   constructor(private st: StateService,

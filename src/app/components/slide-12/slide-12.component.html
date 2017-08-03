@@ -1,0 +1,98 @@
+<div class="slide-12">
+  <div class="slide-12__content">
+    <slide-title [animation]="animationActive" text="5 CSS" strong="Margin & Padding"></slide-title>
+
+    <div class="slide-12__content__row">
+      <div class="slide-12__content__control"
+           [ngClass]="{'slide-12__content__control--active': controlAnim}">
+        <div class="slide-12__content__control__row">
+          <div class="slide-12__content__control__prev">
+            <code>padding:
+              <span>{{paddT}}px</span>
+              <span>{{paddR}}px</span>
+              <span>{{paddB}}px</span>
+              <span>{{paddL}}px</span>;
+            </code>
+          </div>
+          <div class="slide-12__content__control__inputs">
+            <div class="slide-12__content__control__inputs__item">
+              <label for="paddT">padding-top: </label>
+              <input id="paddT" type="number" [(ngModel)]="paddT" [value]="paddT" min="40" max="100">
+            </div>
+            <div class="slide-12__content__control__inputs__item">
+              <label for="paddR">padding-right: </label>
+              <input id="paddR" type="number" [(ngModel)]="paddR" [value]="paddR" min="0" max="100">
+            </div>
+            <div class="slide-12__content__control__inputs__item">
+              <label for="paddB">padding-bottom: </label>
+              <input id="paddB" type="number" [(ngModel)]="paddB" [value]="paddB" min="40" max="100">
+            </div>
+            <div class="slide-12__content__control__inputs__item">
+              <label for="paddL">padding-left: </label>
+              <input id="paddL" type="number" [(ngModel)]="paddL" [value]="paddL" min="0" max="100">
+            </div>
+          </div>
+        </div>
+        <div class="slide-12__content__control__row">
+          <div class="slide-12__content__control__prev">
+            <code>margin:
+              <span>{{marT}}px</span>
+              <span>{{marR}}px</span>
+              <span>{{marB}}px</span>
+              <span>{{marL}}px</span>;
+            </code>
+          </div>
+          <div class="slide-12__content__control__inputs">
+            <div class="slide-12__content__control__inputs__item">
+              <label for="marT">margin-top: </label>
+              <input id="marT" type="number" [(ngModel)]="marT" [value]="marT" min="40" max="100">
+            </div>
+            <div class="slide-12__content__control__inputs__item">
+              <label for="marR">margin-right: </label>
+              <input id="marR" type="number" [(ngModel)]="marR" [value]="marR" min="0" max="100">
+            </div>
+            <div class="slide-12__content__control__inputs__item">
+              <label for="marB">margin-bottom: </label>
+              <input id="marB" type="number" [(ngModel)]="marB" [value]="marB" min="40" max="100">
+            </div>
+            <div class="slide-12__content__control__inputs__item">
+              <label for="marL">margin-left: </label>
+              <input id="marL" type="number" [(ngModel)]="marL" [value]="marL" min="0" max="100">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide-12__content__example"
+           [ngClass]="{'slide-12__content__example--active': exampleAnim}">
+        <div #margin
+             class="slide-12__content__margin"
+             (mouseover)="marginOver($event)"
+             (mouseleave)="marginLeave($event)"></div>
+        <div class="slide-12__content__example__content"
+             [ngStyle]="{'margin-top': marT + 'px',
+                         'margin-right': marR + 'px',
+                         'margin-bottom': marB + 'px',
+                         'margin-left': marL + 'px',
+                         'padding-top': paddT + 'px',
+                         'padding-right': paddR + 'px',
+                         'padding-bottom': paddB + 'px',
+                         'padding-left': paddL + 'px'}">
+          <div #padding
+               class="slide-12__content__padding"
+               (mouseover)="paddingOver($event)"
+               (mouseleave)="paddingLeave($event)"></div>
+          <div class="slide-12__content__example__wrapper">
+            <h3>Lorem Ipsum</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae dapibus dui. Sed nisl sem, faucibus ac lacus fringilla,
+              cursus scelerisque orci. Morbi sodales nibh sem, a molestie purus vulputate vitae. Nunc sollicitudin finibus nisi,
+              at tempor mauris vulputate nec. Fusce in purus convallis, suscipit massa bibendum, dignissim nulla. Fusce nec orci molestie,
+              ullamcorper ante sed, varius neque. Duis sit amet velit id risus ornare consequat. Etiam vitae dapibus dui. Sed nisl sem varius neque.
+              Duis sit amet velit id risus ornare consequat. Vestibulum eleifend pharetra risus, sed lobortis turpis fringilla elementum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
